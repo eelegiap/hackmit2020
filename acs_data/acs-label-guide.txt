@@ -1,3 +1,4 @@
+Description: Revision of 00002
 Samples selected:
       2018 ACS
             Note: 
@@ -11,49 +12,95 @@ Case Selection:               No
   SAMPLE             H   5-10           6      X 
   SERIAL             H  11-18           8      X 
   CBSERIAL           H  19-31          13      X 
-  HHWT               H  32-41          10      X 
-  CLUSTER            H  42-54          13      X 
-  REGION             H  55-56           2      X 
-  STATEFIP           H  57-58           2      X 
-  COUNTYFIP          H  59-61           3      X 
-  DENSITY            H  62-68           7      X 
-  CITY               H  69-72           4      X 
-  STRATA             H  73-84          12      X 
-  GQ                 H  85              1      X 
-  MORTGAGE           H  86              1      X 
-  PROPINSR           H  87-90           4      X 
-  COSTELEC           H  91-94           4      X 
-  HHINCOME           H  95-101          7      X 
-  FOODSTMP           H 102              1      X 
-  VALUEH             H 103-109          7      X 
-  LINGISOL           H 110              1      X 
-  ROOMS              H 111-112          2      X 
-  CINETHH            H 113              1      X 
-  CILAPTOP           H 114              1      X 
-  CISMRTPHN          H 115              1      X 
-  CITABLET           H 116              1      X 
-  CIOTHCOMP          H 117              1      X 
-  CIDATAPLN          H 118              1      X 
-  CIHISPEED          H 119-120          2      X 
-  CISAT              H 121              1      X 
-  CIDIAL             H 122              1      X 
-  MULTGEN            H 123              1      X 
-  MULTGEND           H 124-125          2      X 
-  PERNUM             P 126-129          4      X 
-  PERWT              P 130-139         10      X 
-  FAMSIZE            P 140-141          2      X 
-  RACE               P 142              1      X 
-  RACED              P 143-145          3      X 
-  HISPAN             P 146              1      X 
-  HISPAND            P 147-149          3      X 
-  CITIZEN            P 150              1      X 
-  LANGUAGE           P 151-152          2      X 
-  LANGUAGED          P 153-156          4      X 
-  SPEAKENG           P 157              1      X 
-  EMPSTAT            P 158              1      X 
-  EMPSTATD           P 159-160          2      X 
-  FTOTINC            P 161-167          7      X 
-  POVERTY            P 168-170          3      X 
+  NUMPREC            H  32-33           2      X 
+  HHWT               H  34-43          10      X 
+  CLUSTER            H  44-56          13      X 
+  REGION             H  57-58           2      X 
+  STATEFIP           H  59-60           2      X 
+  COUNTYFIP          H  61-63           3      X 
+  DENSITY            H  64-70           7      X 
+  CITY               H  71-74           4      X 
+  STRATA             H  75-86          12      X 
+  GQ                 H  87              1      X 
+  OWNERSHP           H  88              1      X 
+  OWNERSHPD          H  89-90           2      X 
+  MORTGAGE           H  91              1      X 
+  PROPINSR           H  92-95           4      X 
+  COSTELEC           H  96-99           4      X 
+  HHINCOME           H 100-106          7      X 
+  FOODSTMP           H 107              1      X 
+  VALUEH             H 108-114          7      X 
+  LINGISOL           H 115              1      X 
+  ROOMS              H 116-117          2      X 
+  BEDROOMS           H 118-119          2      X 
+  CINETHH            H 120              1      X 
+  CILAPTOP           H 121              1      X 
+  CISMRTPHN          H 122              1      X 
+  CITABLET           H 123              1      X 
+  CIOTHCOMP          H 124              1      X 
+  CIDATAPLN          H 125              1      X 
+  CIHISPEED          H 126-127          2      X 
+  CISAT              H 128              1      X 
+  CIDIAL             H 129              1      X 
+  VEHICLES           H 130              1      X 
+  MULTGEN            H 131              1      X 
+  MULTGEND           H 132-133          2      X 
+  PERNUM             P 134-137          4      X 
+  PERWT              P 138-147         10      X 
+  FAMSIZE            P 148-149          2      X 
+  RACE               P 150              1      X 
+  RACED              P 151-153          3      X 
+  HISPAN             P 154              1      X 
+  HISPAND            P 155-157          3      X 
+  CITIZEN            P 158              1      X 
+  LANGUAGE           P 159-160          2      X 
+  LANGUAGED          P 161-164          4      X 
+  SPEAKENG           P 165              1      X 
+  HCOVANY            P 166              1      X 
+  HCOVPRIV           P 167              1      X 
+  SCHOOL             P 168              1      X 
+  EDUC               P 169-170          2      X 
+  EDUCD              P 171-173          3      X 
+  GRADEATT           P 174              1      X 
+  GRADEATTD          P 175-176          2      X 
+  SCHLTYPE           P 177              1      X 
+  EMPSTAT            P 178              1      X 
+  EMPSTATD           P 179-180          2      X 
+  FTOTINC            P 181-187          7      X 
+  INCWELFR           P 188-192          5      X 
+  POVERTY            P 193-195          3      X 
+  CITIZEN_MOM        P 196              1      X 
+  CITIZEN_POP        P 197              1      X 
+  CITIZEN_MOM2       P 198              1      X 
+  CITIZEN_POP2       P 199              1      X 
+  LANGUAGE_MOM       P 200-201          2      X 
+  LANGUAGE_POP       P 202-203          2      X 
+  LANGUAGE_MOM2      P 204-205          2      X 
+  LANGUAGE_POP2      P 206-207          2      X 
+  LANGUAGED_MOM      P 208-211          4      X 
+  LANGUAGED_POP      P 212-215          4      X 
+  LANGUAGED_MOM2     P 216-219          4      X 
+  LANGUAGED_POP2     P 220-223          4      X 
+  SPEAKENG_MOM       P 224              1      X 
+  SPEAKENG_POP       P 225              1      X 
+  SPEAKENG_MOM2      P 226              1      X 
+  SPEAKENG_POP2      P 227              1      X 
+  EDUC_MOM           P 228-229          2      X 
+  EDUC_POP           P 230-231          2      X 
+  EDUC_MOM2          P 232-233          2      X 
+  EDUC_POP2          P 234-235          2      X 
+  EDUCD_MOM          P 236-238          3      X 
+  EDUCD_POP          P 239-241          3      X 
+  EDUCD_MOM2         P 242-244          3      X 
+  EDUCD_POP2         P 245-247          3      X 
+  EMPSTAT_MOM        P 248              1      X 
+  EMPSTAT_POP        P 249              1      X 
+  EMPSTAT_MOM2       P 250              1      X 
+  EMPSTAT_POP2       P 251              1      X 
+  EMPSTATD_MOM       P 252-253          2      X 
+  EMPSTATD_POP       P 254-255          2      X 
+  EMPSTATD_MOM2      P 256-257          2      X 
+  EMPSTATD_POP2      P 258-259          2      X 
 
 Variable Availability Key:
 All Years X - available in this sample
@@ -706,7 +753,7 @@ CITY		City
 2391		Fulton, NY
 2392		Gadsden, AL
 2393		Galena, KS
-2394		Gainseville, FL
+2394		Gainesville, FL
 2400		Galesburg, IL
 2410		Galveston, TX
 2411		Gardner, MA
@@ -830,7 +877,7 @@ CITY		City
 3091		Jackson, TN
 3110		Jacksonville, FL
 3111		Jacksonville, IL
-3130		Jamestown , NY
+3130		Jamestown, NY
 3131		Janesville, WI
 3132		Jeannette, PA
 3133		Jefferson City, MO
@@ -974,7 +1021,7 @@ CITY		City
 4090		Metairie, LA
 4110		Miami, FL
 4120		Michigan City, IN
-4121		Middlesborough, KY
+4121		Middlesboro, KY
 4122		Middletown, CT
 4123		Middletown, NY
 4124		Middletown, OH
@@ -1141,7 +1188,7 @@ CITY		City
 5311		Phenix City, AL
 5330		Philadelphia, PA
 5331		Kensington
-5332		Mayamensing
+5332		Moyamensing
 5333		Northern Liberties
 5334		Southwark
 5335		Spring Garden
@@ -1501,6 +1548,21 @@ GQ		Group quarters status
 5		Additional households under 2000 definition
 6		Fragment
 
+OWNERSHP		Ownership of dwelling (tenure) [general version]
+0		N/A
+1		Owned or being bought (loan)
+2		Rented
+
+OWNERSHPD		Ownership of dwelling (tenure) [detailed version]
+00		N/A
+10		Owned or being bought
+11		Check mark (owns?)
+12		Owned free and clear
+13		Owned with mortgage or loan
+20		Rented
+21		No cash rent
+22		With cash rent
+
 MORTGAGE		Mortgage status
 0		N/A
 1		No, owned free and clear
@@ -1548,6 +1610,31 @@ ROOMS		Number of rooms
 26		26
 27		27
 30		30
+
+BEDROOMS		Number of bedrooms
+00		N/A
+01		No bedrooms
+02		1
+03		2
+04		3
+05		4 (1970-2000, 2000-2007 ACS/PRCS)
+06		5+ (1970-2000, 2000-2007 ACS/PRCS)
+07		6
+08		7
+09		8
+10		9
+11		10
+12		11
+13		12
+14		13
+15		14
+16		15
+17		16
+18		17
+19		18
+20		19
+21		20
+22		21
 
 CINETHH		Access to internet
 0		N/A (GQ)
@@ -1601,6 +1688,17 @@ CIDIAL		Dial-up service
 0		N/A (GQ)
 1		Yes
 2		No
+
+VEHICLES		Vehicles available
+0		N/A
+1		1 available
+2		2
+3		3
+4		4
+5		5
+6		6 (6+, 2000, ACS and PRCS)
+7		7+
+9		No vehicles available
 
 MULTGEN		Multigenerational household [general version]
 0		N/A
@@ -2618,6 +2716,130 @@ SPEAKENG		Speaks English
 7		Unknown
 8		Illegible
 
+HCOVANY		Any health insurance coverage
+1		No health insurance coverage
+2		With health insurance coverage
+
+HCOVPRIV		Private health insurance coverage
+1		Without private health insurance coverage
+2		With private health insurance coverage
+
+SCHOOL		School attendance
+0		N/A
+1		No, not in school
+2		Yes, in school
+9		Missing
+
+EDUC		Educational attainment [general version]
+00		N/A or no schooling
+01		Nursery school to grade 4
+02		Grade 5, 6, 7, or 8
+03		Grade 9
+04		Grade 10
+05		Grade 11
+06		Grade 12
+07		1 year of college
+08		2 years of college
+09		3 years of college
+10		4 years of college
+11		5+ years of college
+
+EDUCD		Educational attainment [detailed version]
+000		N/A or no schooling
+001		N/A
+002		No schooling completed
+010		Nursery school to grade 4
+011		Nursery school, preschool
+012		Kindergarten
+013		Grade 1, 2, 3, or 4
+014		Grade 1
+015		Grade 2
+016		Grade 3
+017		Grade 4
+020		Grade 5, 6, 7, or 8
+021		Grade 5 or 6
+022		Grade 5
+023		Grade 6
+024		Grade 7 or 8
+025		Grade 7
+026		Grade 8
+030		Grade 9
+040		Grade 10
+050		Grade 11
+060		Grade 12
+061		12th grade, no diploma
+062		High school graduate or GED
+063		Regular high school diploma
+064		GED or alternative credential
+065		Some college, but less than 1 year
+070		1 year of college
+071		1 or more years of college credit, no degree
+080		2 years of college
+081		Associate's degree, type not specified
+082		Associate's degree, occupational program
+083		Associate's degree, academic program
+090		3 years of college
+100		4 years of college
+101		Bachelor's degree
+110		5+ years of college
+111		6 years of college (6+ in 1960-1970)
+112		7 years of college
+113		8+ years of college
+114		Master's degree
+115		Professional degree beyond a bachelor's degree
+116		Doctoral degree
+999		Missing
+
+GRADEATT		Grade level attending [general version]
+0		N/A
+1		Nursery school/preschool
+2		Kindergarten
+3		Grade 1 to grade 4
+4		Grade 5 to grade 8
+5		Grade 9 to grade 12
+6		College undergraduate
+7		Graduate or professional school
+
+GRADEATTD		Grade level attending [detailed version]
+00		N/A
+10		Nursery school/preschool
+20		Kindergarten
+30		Grade 1 to grade 4
+31		Grade 1
+32		Grade 2
+33		Grade 3
+34		Grade 4
+40		Grade 5 to grade 8
+41		Grade 5
+42		Grade 6
+43		Grade 7
+44		Grade 8
+50		Grade 9 to grade 12
+51		Grade 9
+52		Grade 10
+53		Grade 11
+54		Grade 12
+60		College undergraduate
+61		First year of college
+62		Second year of college
+63		Third year of college
+64		Fourth year of college
+70		Graduate or professional school
+71		Fifth year of college
+72		Sixth year of college
+73		Seventh year of college
+74		Eighth year of college
+
+SCHLTYPE		Public or private school
+0		N/A
+1		Not enrolled
+2		Public school
+3		Private school (1960,1990-2000,ACS,PRCS)
+4		Church-related (1980)
+5		Parochial (1970)
+6		Other private, 1980
+7		Other private, 1970
+
 EMPSTAT		Employment status [general version]
 0		N/A
 1		Employed
@@ -2625,6 +2847,2886 @@ EMPSTAT		Employment status [general version]
 3		Not in labor force
 
 EMPSTATD		Employment status [detailed version]
+00		N/A
+		In Labor Force
+		Employed
+10		At work
+11		At work, public emerg
+12		Has job, not working
+13		Armed forces
+14		Armed forces--at work
+15		Armed forces--not at work but with job
+20		Unemployed
+21		Unemp, exper worker
+22		Unemp, new worker
+30		Not in Labor Force
+31		NILF, housework
+32		NILF, unable to work
+33		NILF, school
+34		NILF, other
+
+CITIZEN_MOM		Citizenship status [of mother]
+0		N/A
+1		Born abroad of American parents
+2		Naturalized citizen
+3		Not a citizen
+4		Not a citizen, but has received first papers
+5		Foreign born, citizenship status not reported
+
+CITIZEN_POP		Citizenship status [of father]
+0		N/A
+1		Born abroad of American parents
+2		Naturalized citizen
+3		Not a citizen
+4		Not a citizen, but has received first papers
+5		Foreign born, citizenship status not reported
+
+CITIZEN_MOM2		Citizenship status [of same sex mother]
+0		N/A
+1		Born abroad of American parents
+2		Naturalized citizen
+3		Not a citizen
+4		Not a citizen, but has received first papers
+5		Foreign born, citizenship status not reported
+
+CITIZEN_POP2		Citizenship status [of same sex father]
+0		N/A
+1		Born abroad of American parents
+2		Naturalized citizen
+3		Not a citizen
+4		Not a citizen, but has received first papers
+5		Foreign born, citizenship status not reported
+
+LANGUAGE_MOM		Language spoken [of mother; general version]
+00		N/A or blank
+01		English
+02		German
+03		Yiddish, Jewish
+04		Dutch
+05		Swedish
+06		Danish
+07		Norwegian
+08		Icelandic
+09		Scandinavian
+10		Italian
+11		French
+12		Spanish
+13		Portuguese
+14		Rumanian
+15		Celtic
+16		Greek
+17		Albanian
+18		Russian
+19		Ukrainian, Ruthenian, Little Russian
+20		Czech
+21		Polish
+22		Slovak
+23		Serbo-Croatian, Yugoslavian, Slavonian
+24		Slovene
+25		Lithuanian
+26		Other Balto-Slavic
+27		Slavic unknown
+28		Armenian
+29		Persian, Iranian, Farsi
+30		Other Persian dialects
+31		Hindi and related
+32		Romany, Gypsy
+33		Finnish
+34		Magyar, Hungarian
+35		Uralic
+36		Turkish
+37		Other Altaic
+38		Caucasian, Georgian, Avar
+39		Basque
+40		Dravidian
+41		Kurukh
+42		Burushaski
+43		Chinese
+44		Tibetan
+45		Burmese, Lisu, Lolo
+46		Kachin
+47		Thai, Siamese, Lao
+48		Japanese
+49		Korean
+50		Vietnamese
+51		Other East/Southeast Asian
+52		Indonesian
+53		Other Malayan
+54		Filipino, Tagalog
+55		Micronesian, Polynesian
+56		Hawaiian
+57		Arabic
+58		Near East Arabic dialect
+59		Hebrew, Israeli
+60		Amharic, Ethiopian, etc.
+61		Hamitic
+62		Other Afro-Asiatic languages
+63		Sub-Saharan Africa
+64		African, n.s.
+70		American Indian (all)
+71		Aleut, Eskimo
+72		Algonquian
+73		Salish, Flathead
+74		Athapascan
+75		Navajo
+76		Penutian-Sahaptin
+77		Other Penutian
+78		Zuni
+79		Yuman
+80		Other Hokan languages
+81		Siouan languages
+82		Muskogean
+83		Keres
+84		Iroquoian
+85		Caddoan
+86		Shoshonean/Hopi
+87		Pima, Papago
+88		Yaqui and other Sonoran, nec
+89		Aztecan, Nahuatl, Uto-Aztecan
+90		Tanoan languages
+91		Other Indian languages
+92		Mayan languages
+93		American Indian, n.s.
+94		Native
+95		No language
+96		Other or not reported
+
+LANGUAGE_POP		Language spoken [of father; general version]
+00		N/A or blank
+01		English
+02		German
+03		Yiddish, Jewish
+04		Dutch
+05		Swedish
+06		Danish
+07		Norwegian
+08		Icelandic
+09		Scandinavian
+10		Italian
+11		French
+12		Spanish
+13		Portuguese
+14		Rumanian
+15		Celtic
+16		Greek
+17		Albanian
+18		Russian
+19		Ukrainian, Ruthenian, Little Russian
+20		Czech
+21		Polish
+22		Slovak
+23		Serbo-Croatian, Yugoslavian, Slavonian
+24		Slovene
+25		Lithuanian
+26		Other Balto-Slavic
+27		Slavic unknown
+28		Armenian
+29		Persian, Iranian, Farsi
+30		Other Persian dialects
+31		Hindi and related
+32		Romany, Gypsy
+33		Finnish
+34		Magyar, Hungarian
+35		Uralic
+36		Turkish
+37		Other Altaic
+38		Caucasian, Georgian, Avar
+39		Basque
+40		Dravidian
+41		Kurukh
+42		Burushaski
+43		Chinese
+44		Tibetan
+45		Burmese, Lisu, Lolo
+46		Kachin
+47		Thai, Siamese, Lao
+48		Japanese
+49		Korean
+50		Vietnamese
+51		Other East/Southeast Asian
+52		Indonesian
+53		Other Malayan
+54		Filipino, Tagalog
+55		Micronesian, Polynesian
+56		Hawaiian
+57		Arabic
+58		Near East Arabic dialect
+59		Hebrew, Israeli
+60		Amharic, Ethiopian, etc.
+61		Hamitic
+62		Other Afro-Asiatic languages
+63		Sub-Saharan Africa
+64		African, n.s.
+70		American Indian (all)
+71		Aleut, Eskimo
+72		Algonquian
+73		Salish, Flathead
+74		Athapascan
+75		Navajo
+76		Penutian-Sahaptin
+77		Other Penutian
+78		Zuni
+79		Yuman
+80		Other Hokan languages
+81		Siouan languages
+82		Muskogean
+83		Keres
+84		Iroquoian
+85		Caddoan
+86		Shoshonean/Hopi
+87		Pima, Papago
+88		Yaqui and other Sonoran, nec
+89		Aztecan, Nahuatl, Uto-Aztecan
+90		Tanoan languages
+91		Other Indian languages
+92		Mayan languages
+93		American Indian, n.s.
+94		Native
+95		No language
+96		Other or not reported
+
+LANGUAGE_MOM2		Language spoken [of same sex mother; general version]
+00		N/A or blank
+01		English
+02		German
+03		Yiddish, Jewish
+04		Dutch
+05		Swedish
+06		Danish
+07		Norwegian
+08		Icelandic
+09		Scandinavian
+10		Italian
+11		French
+12		Spanish
+13		Portuguese
+14		Rumanian
+15		Celtic
+16		Greek
+17		Albanian
+18		Russian
+19		Ukrainian, Ruthenian, Little Russian
+20		Czech
+21		Polish
+22		Slovak
+23		Serbo-Croatian, Yugoslavian, Slavonian
+24		Slovene
+25		Lithuanian
+26		Other Balto-Slavic
+27		Slavic unknown
+28		Armenian
+29		Persian, Iranian, Farsi
+30		Other Persian dialects
+31		Hindi and related
+32		Romany, Gypsy
+33		Finnish
+34		Magyar, Hungarian
+35		Uralic
+36		Turkish
+37		Other Altaic
+38		Caucasian, Georgian, Avar
+39		Basque
+40		Dravidian
+41		Kurukh
+42		Burushaski
+43		Chinese
+44		Tibetan
+45		Burmese, Lisu, Lolo
+46		Kachin
+47		Thai, Siamese, Lao
+48		Japanese
+49		Korean
+50		Vietnamese
+51		Other East/Southeast Asian
+52		Indonesian
+53		Other Malayan
+54		Filipino, Tagalog
+55		Micronesian, Polynesian
+56		Hawaiian
+57		Arabic
+58		Near East Arabic dialect
+59		Hebrew, Israeli
+60		Amharic, Ethiopian, etc.
+61		Hamitic
+62		Other Afro-Asiatic languages
+63		Sub-Saharan Africa
+64		African, n.s.
+70		American Indian (all)
+71		Aleut, Eskimo
+72		Algonquian
+73		Salish, Flathead
+74		Athapascan
+75		Navajo
+76		Penutian-Sahaptin
+77		Other Penutian
+78		Zuni
+79		Yuman
+80		Other Hokan languages
+81		Siouan languages
+82		Muskogean
+83		Keres
+84		Iroquoian
+85		Caddoan
+86		Shoshonean/Hopi
+87		Pima, Papago
+88		Yaqui and other Sonoran, nec
+89		Aztecan, Nahuatl, Uto-Aztecan
+90		Tanoan languages
+91		Other Indian languages
+92		Mayan languages
+93		American Indian, n.s.
+94		Native
+95		No language
+96		Other or not reported
+
+LANGUAGE_POP2		Language spoken [of same sex father; general version]
+00		N/A or blank
+01		English
+02		German
+03		Yiddish, Jewish
+04		Dutch
+05		Swedish
+06		Danish
+07		Norwegian
+08		Icelandic
+09		Scandinavian
+10		Italian
+11		French
+12		Spanish
+13		Portuguese
+14		Rumanian
+15		Celtic
+16		Greek
+17		Albanian
+18		Russian
+19		Ukrainian, Ruthenian, Little Russian
+20		Czech
+21		Polish
+22		Slovak
+23		Serbo-Croatian, Yugoslavian, Slavonian
+24		Slovene
+25		Lithuanian
+26		Other Balto-Slavic
+27		Slavic unknown
+28		Armenian
+29		Persian, Iranian, Farsi
+30		Other Persian dialects
+31		Hindi and related
+32		Romany, Gypsy
+33		Finnish
+34		Magyar, Hungarian
+35		Uralic
+36		Turkish
+37		Other Altaic
+38		Caucasian, Georgian, Avar
+39		Basque
+40		Dravidian
+41		Kurukh
+42		Burushaski
+43		Chinese
+44		Tibetan
+45		Burmese, Lisu, Lolo
+46		Kachin
+47		Thai, Siamese, Lao
+48		Japanese
+49		Korean
+50		Vietnamese
+51		Other East/Southeast Asian
+52		Indonesian
+53		Other Malayan
+54		Filipino, Tagalog
+55		Micronesian, Polynesian
+56		Hawaiian
+57		Arabic
+58		Near East Arabic dialect
+59		Hebrew, Israeli
+60		Amharic, Ethiopian, etc.
+61		Hamitic
+62		Other Afro-Asiatic languages
+63		Sub-Saharan Africa
+64		African, n.s.
+70		American Indian (all)
+71		Aleut, Eskimo
+72		Algonquian
+73		Salish, Flathead
+74		Athapascan
+75		Navajo
+76		Penutian-Sahaptin
+77		Other Penutian
+78		Zuni
+79		Yuman
+80		Other Hokan languages
+81		Siouan languages
+82		Muskogean
+83		Keres
+84		Iroquoian
+85		Caddoan
+86		Shoshonean/Hopi
+87		Pima, Papago
+88		Yaqui and other Sonoran, nec
+89		Aztecan, Nahuatl, Uto-Aztecan
+90		Tanoan languages
+91		Other Indian languages
+92		Mayan languages
+93		American Indian, n.s.
+94		Native
+95		No language
+96		Other or not reported
+
+LANGUAGED_MOM		Language spoken [of mother; detailed version]
+0000		N/A or blank
+0100		English
+0110		Jamaican Creole
+0120		Krio, Pidgin Krio
+0130		Hawaiian Pidgin
+0140		Pidgin
+0150		Gullah, Geechee
+0160		Saramacca
+0170		Other English-based Creole languages
+0200		German
+0210		Austrian
+0220		Swiss
+0230		Luxembourgian
+0240		Pennsylvania Dutch
+0300		Yiddish, Jewish
+0310		Jewish
+0320		Yiddish
+0400		Dutch
+0410		Dutch, Flemish, Belgian
+0420		Afrikaans
+0430		Frisian
+0440		Dutch, Afrikaans, Frisian
+0450		Belgian, Flemish
+0460		Belgian
+0470		Flemish
+0500		Swedish
+0600		Danish
+0700		Norwegian
+0800		Icelandic
+0810		Faroese
+0900		Scandinavian
+1000		Italian
+1010		Rhaeto-Romanic, Ladin
+1020		Friulian
+1030		Romansh
+1100		French
+1110		French, Walloon
+1120		Provencal
+1130		Patois
+1140		French or Haitian Creole
+1150		Cajun
+1200		Spanish
+1210		Catalonian, Valencian
+1220		Ladino, Sefaradit, Spanol
+1230		Pachuco
+1250		Mexican
+1300		Portuguese
+1310		Papia Mentae
+1320		Cape Verdean Creole
+1400		Rumanian
+1500		Celtic
+1510		Welsh, Breton, Cornish
+1520		Welsh
+1530		Breton
+1540		Irish Gaelic, Gaelic
+1550		Gaelic
+1560		Irish
+1570		Scottish Gaelic
+1580		Scotch
+1590		Manx, Manx Gaelic
+1600		Greek
+1700		Albanian
+1800		Russian
+1810		Russian, Great Russian
+1811		Great Russian
+1820		Bielo-, White Russian
+1900		Ukrainian, Ruthenian, Little Russian
+1910		Ruthenian
+1920		Little Russian
+1930		Ukrainian
+2000		Czech
+2010		Bohemian
+2020		Moravian
+2100		Polish
+2110		Kashubian, Slovincian
+2200		Slovak
+2300		Serbo-Croatian, Yugoslavian, Slavonian
+2310		Croatian
+2320		Serbian
+2321		Bosnian
+2330		Dalmatian, Montenegrin
+2331		Dalmatian
+2332		Montenegrin
+2400		Slovene
+2500		Lithuanian
+2510		Lettish, Latvian
+2600		Other Balto-Slavic
+2610		Bulgarian
+2620		Lusatian, Sorbian, Wendish
+2621		Wendish
+2630		Macedonian
+2700		Slavic unknown
+2800		Armenian
+2900		Persian, Iranian, Farsi
+2910		Persian
+2920		Dari
+		Other Persian dialects:
+3000		Other Persian dialects
+3010		Pashto, Afghan
+3020		Kurdish
+3030		Balochi
+3040		Tadzhik
+3050		Ossete
+3100		Hindi and related
+3101		Hindi, Hindustani, Indic, Jaipuri, Pali, Urdu
+3102		Hindi
+3103		Urdu
+3104		Other Indo-Iranian languages
+		Other Indo-Aryan:
+3110		Other Indo-Aryan
+3111		Sanskrit
+3112		Bengali
+3113		Panjabi
+3114		Marathi
+3115		Gujarathi
+3116		Bihari
+3117		Rajasthani
+3118		Oriya
+3119		Assamese
+3120		Kashmiri
+3121		Sindhi
+3122		Maldivian
+3123		Sinhalese
+3130		Kannada
+3140		India nec
+3150		Pakistan nec
+3190		Other Indo-European languages
+3200		Romany, Gypsy
+3210		Gypsy
+3300		Finnish
+3400		Magyar, Hungarian
+3401		Magyar
+3402		Hungarian
+3500		Uralic
+3510		Estonian, Ingrian, Livonian, Vepsian,  Votic
+3511		Estonian
+3520		Lapp, Inari, Kola, Lule, Pite, Ruija, Skolt, Ume
+3521		Lappish
+3530		Other Uralic
+3600		Turkish
+3700		Other Altaic
+3701		Chuvash
+3702		Karakalpak
+3703		Kazakh
+3704		Kirghiz
+3705		Karachay, Tatar, Balkar, Bashkir, Kumyk
+3706		Uzbek, Uighur
+3707		Azerbaijani
+3708		Turkmen
+3709		Yakut
+3710		Mongolian
+3711		Tungus
+3800		Caucasian, Georgian, Avar
+3810		Georgian
+3900		Basque
+4000		Dravidian
+4001		Brahui
+4002		Gondi
+4003		Telugu
+4004		Malayalam
+4005		Tamil
+4010		Bhili
+4011		Nepali
+4100		Kurukh
+4110		Munda
+4200		Burushaski
+4300		Chinese
+4301		Chinese, Cantonese, Min, Yueh
+4302		Cantonese
+4303		Mandarin
+		Other Chinese
+4310		Other Chinese
+4311		Hakka, Fukien, Kechia
+4312		Kan, Nan Chang
+4313		Hsiang, Chansa, Hunan, Iyan
+4314		Fuchow, Min Pei
+4315		Wu
+4400		Tibetan
+4410		Miao-Yao, Mien
+4420		Miao, Hmong
+4430		Iu Mien
+4500		Burmese, Lisu, Lolo
+4510		Karen
+4520		Chin languages
+4600		Kachin
+4700		Thai, Siamese, Lao
+4710		Thai
+4720		Laotian
+4800		Japanese
+4900		Korean
+5000		Vietnamese
+		Other East/Southeast Asian:
+5100		Other East/Southeast Asian
+5110		Ainu
+5120		Mon-Khmer, Cambodian
+5130		Siberian, n.e.c.
+5140		Yukagir
+5150		Muong
+5200		Indonesian
+5210		Buginese
+5220		Moluccan
+5230		Achinese
+5240		Balinese
+5250		Cham
+5260		Madurese
+5270		Malay
+5280		Minangkabau
+5290		Other Asian languages
+		Other Malayan:
+5300		Other Malayan
+5310		Formosan, Taiwanese
+5320		Javanese
+5330		Malagasy
+5340		Sundanese
+5400		Filipino, Tagalog
+5410		Bisayan
+5420		Sebuano
+5430		Pangasinan
+5440		Llocano, Hocano
+5450		Bikol
+5460		Pampangan
+5470		Gorontalo
+5480		Palau
+		Miconesian, Polynesian
+5500		Micronesian, Polynesian
+5501		Micronesian
+5502		Carolinian
+5503		Chamorro, Guamanian
+5504		Gilbertese
+5505		Kusaiean
+5506		Marshallese
+5507		Mokilese
+5508		Mortlockese
+5509		Nauruan
+5510		Ponapean
+5511		Trukese
+5512		Ulithean, Fais
+5513		Woleai-Ulithi
+5514		Yapese
+5520		Melanesian
+5521		Polynesian
+5522		Samoan
+5523		Tongan
+5524		Niuean
+5525		Tokelauan
+5526		Fijian
+5527		Marquesan
+5528		Rarotongan
+5529		Maori
+5530		Nukuoro, Kapingarangan
+5590		Other Pacific Island languages
+5600		Hawaiian
+5700		Arabic
+5710		Algerian, Moroccan, Tunisian
+5720		Egyptian
+5730		Iraqi
+5740		Libyan
+5750		Maltese
+5800		Near East Arabic dialect
+5810		Syriac, Aramaic, Chaldean
+5820		Syrian
+5900		Hebrew, Israeli
+6000		Amharic, Ethiopian, etc.
+		Hamitic
+6100		Hamitic
+6110		Berber
+6120		Chadic, Hamitic, Hausa
+6130		Cushite, Beja, Somali
+6200		Other Afro-Asiatic languages
+		Sub-Saharan Africa:
+6300		Nilotic
+6301		Nilo-Hamitic
+6302		Nubian
+6303		Saharan
+6304		Nilo-Saharan, Fur, Songhai
+6305		Khoisan
+6306		Sudanic
+6307		Bantu (many subheads)
+6308		Swahili
+6309		Mande
+6310		Fulani
+6311		Gur
+6312		Kru
+6313		Efik, Ibibio, Tiv
+6314		Mbum, Gbaya, Sango, Zande
+		Sub-Saharan Africa (1960, 1970 only):
+6320		Eastern Sudanic and Khoisan
+6321		Niger-Congo regions (many subheads)
+6322		Congo, Kongo, Luba, Ruanda, Rundi, Santali, Swahili
+6390		Other specified African languages
+6400		African, n.s.
+7000		American Indian (all)
+7100		Aleut, Eskimo
+7110		Aleut
+7120		Pacific Gulf Yupik
+7130		Eskimo
+7140		Inupik, Innuit
+7150		St. Lawrence Isl. Yupik
+7160		Yupik
+7200		Algonquian
+7201		Arapaho
+7202		Atsina, Gros Ventre
+7203		Blackfoot
+7204		Cheyenne
+7205		Cree
+7206		Delaware, Lenni-Lenape
+7207		Fox, Sac
+7208		Kickapoo
+7209		Menomini
+7210		Metis, French Cree
+7211		Miami
+7212		Micmac
+7213		Ojibwa, Chippewa
+7214		Ottawa
+7215		Passamaquoddy, Malecite
+7216		Penobscot
+7217		Abnaki
+7218		Potawatomi
+7219		Shawnee
+7300		Salish, Flathead
+7301		Lower Chehalis
+7302		Upper Chehalis, Chelalis, Satsop
+7303		Clallam
+7304		Coeur dAlene, Skitsamish
+7305		Columbia, Chelan, Wenatchee
+7306		Cowlitz
+7307		Nootsack
+7308		Okanogan
+7309		Puget Sound Salish
+7310		Quinault, Queets
+7311		Tillamook
+7312		Twana
+7313		Kalispel
+7314		Spokane
+7400		Athapascan
+7401		Ahtena
+7402		Han
+7403		Ingalit
+7404		Koyukon
+7405		Kuchin
+7406		Upper Kuskokwim
+7407		Tanaina
+7408		Tanana, Minto
+7409		Tanacross
+7410		Upper Tanana, Nabesena, Tetlin
+7411		Tutchone
+7412		Chasta Costa, Chetco, Coquille, Smith River Athapascan
+7413		Hupa
+7420		Apache
+7421		Jicarilla, Lipan
+7422		Chiricahua, Mescalero
+7423		San Carlos, Cibecue, White Mountain
+7424		Kiowa-Apache
+7430		Kiowa
+7440		Eyak
+7450		Other Athapascan-Eyak, Cahto, Mattole, Wailaki
+7490		Other Algonquin languages
+7500		Navajo
+		Penutian-Sahaptin
+7600		Penutian-Sahaptin
+7610		Klamath, Modoc
+7620		Nez Perce
+7630		Sahaptian, Celilo, Klikitat, Palouse, Tenino, Umatilla, Warm
+		Other Penutian:
+7700		Mountain Maidu, Maidu
+7701		Northwest Maidu, Concow
+7702		Southern Maidu, Nisenan
+7703		Coast Miwok, Bodega, Marin
+7704		Plains Miwok
+7705		Sierra Miwok, Miwok
+7706		Nomlaki, Tehama
+7707		Patwin, Colouse, Suisun
+7708		Wintun
+7709		Foothill North Yokuts
+7710		Tachi
+7711		Santiam, Calapooya, Wapatu
+7712		Siuslaw, Coos, Lower Umpqua
+7713		Tsimshian
+7714		Upper Chinook, Clackamas, Multnomah, Wasco, Wishram
+7715		Chinook Jargon
+7800		Zuni
+		Hokan languages:
+7900		Yuman
+7910		Upriver Yuman
+7920		Cocomaricopa
+7930		Mohave
+7940		Diegueno
+7950		Delta River Yuman
+7960		Upland Yuman
+7970		Havasupai
+7980		Walapai
+7990		Yavapai
+8000		Achumawi
+8010		Atsugewi
+8020		Karok
+8030		Pomo
+8040		Shastan
+8050		Washo
+8060		Chumash
+		Siouan languages:
+8100		Siouan languages
+8101		Crow, Absaroke
+8102		Hidatsa
+8103		Mandan
+8104		Dakota, Lakota, Nakota, Sioux
+8105		Chiwere
+8106		Winnebago
+8107		Kansa, Kaw
+8108		Omaha
+8109		Osage
+8110		Ponca
+8111		Quapaw, Arkansas
+8120		Iowa
+8200		Muskogean
+8210		Alabama
+8220		Choctaw, Chickasaw
+8230		Mikasuki
+8240		Hichita, Apalachicola
+8250		Koasati
+8260		Muskogee, Creek, Seminole
+8300		Keres
+8400		Iroquoian
+8410		Mohawk
+8420		Oneida
+8430		Onondaga
+8440		Cayuga
+8450		Seneca
+8460		Tuscarora
+8470		Wyandot, Huron
+8480		Cherokee
+8500		Caddoan
+8510		Arikara
+8520		Pawnee
+8530		Wichita
+		Uto-Aztecan languages:
+		Shoshonean/Hopi:
+8600		Shoshonean/Hopi
+8601		Comanche
+8602		Mono, Owens Valley Paiute
+8603		Paiute
+8604		Northern Paiute, Bannock, Num, Snake
+8605		Southern Paiute
+8606		Chemehuevi
+8607		Kawaiisu
+8608		Ute
+8609		Shoshoni
+8610		Panamint
+8620		Hopi
+8630		Cahuilla
+8631		Cupeno
+8632		Luiseno
+8633		Serrano
+8640		Tubatulabal
+		Sonoran languages:
+8700		Pima, Papago
+8800		Yaqui
+8810		Sonoran n.e.c., Cahita, Guasave, Huichole, Nayit, Tarahumar
+		Sonoran, n.e.c.:
+8820		Tarahumara
+		Other Uto-Aztecan:
+8900		Aztecan, Nahuatl, Uto-Aztecan
+8910		Aztecan, Mexicano, Nahua
+		Tanoan languages:
+9000		Tanoan languages
+9010		Picuris, Northern Tiwa, Taos
+9020		Tiwa, Isleta
+9030		Sandia
+9040		Tewa, Hano, Hopi-Tewa, San Ildefonso, San Juan, Santa Clara
+9050		Towa
+		Other Indian languages:
+9100		Wiyot
+9101		Yurok
+9110		Kwakiutl
+9111		Nootka
+9112		Makah
+9120		Kutenai
+9130		Haida
+9131		Tlingit, Chilkat, Sitka, Tongass, Yakutat
+9140		Tonkawa
+9150		Yuchi
+9160		Chetemacha
+9170		Yuki
+9171		Wappo
+9200		Mayan languages
+9210		Misumalpan
+9211		Cakchiquel
+9212		Mam
+9213		Maya
+9214		Quekchi
+9215		Quiche
+9220		Tarascan
+		Mapuche
+9230		Mapuche
+9231		Araucanian
+		Oto-Manguen
+9240		Oto-Manguen
+9241		Mixtec
+9242		Zapotec
+9250		Quechua
+9260		Aymara
+		Arawakian
+9270		Arawakian
+9271		Island Caribs
+		Chibchan
+9280		Chibchan
+9281		Cuna
+9282		Guaymi
+		Tupi-Guarani
+9290		Tupi-Guarani
+9291		Tupi
+9292		Guarani
+9300		American Indian, n.s.
+9400		Native
+9410		Other specified American Indian languages
+9420		South/Central American Indian
+9500		No language
+9600		Other or not reported
+9601		Other n.e.c.
+9602		Other n.s.
+9999		
+
+LANGUAGED_POP		Language spoken [of father; detailed version]
+0000		N/A or blank
+0100		English
+0110		Jamaican Creole
+0120		Krio, Pidgin Krio
+0130		Hawaiian Pidgin
+0140		Pidgin
+0150		Gullah, Geechee
+0160		Saramacca
+0170		Other English-based Creole languages
+0200		German
+0210		Austrian
+0220		Swiss
+0230		Luxembourgian
+0240		Pennsylvania Dutch
+0300		Yiddish, Jewish
+0310		Jewish
+0320		Yiddish
+0400		Dutch
+0410		Dutch, Flemish, Belgian
+0420		Afrikaans
+0430		Frisian
+0440		Dutch, Afrikaans, Frisian
+0450		Belgian, Flemish
+0460		Belgian
+0470		Flemish
+0500		Swedish
+0600		Danish
+0700		Norwegian
+0800		Icelandic
+0810		Faroese
+0900		Scandinavian
+1000		Italian
+1010		Rhaeto-Romanic, Ladin
+1020		Friulian
+1030		Romansh
+1100		French
+1110		French, Walloon
+1120		Provencal
+1130		Patois
+1140		French or Haitian Creole
+1150		Cajun
+1200		Spanish
+1210		Catalonian, Valencian
+1220		Ladino, Sefaradit, Spanol
+1230		Pachuco
+1250		Mexican
+1300		Portuguese
+1310		Papia Mentae
+1320		Cape Verdean Creole
+1400		Rumanian
+1500		Celtic
+1510		Welsh, Breton, Cornish
+1520		Welsh
+1530		Breton
+1540		Irish Gaelic, Gaelic
+1550		Gaelic
+1560		Irish
+1570		Scottish Gaelic
+1580		Scotch
+1590		Manx, Manx Gaelic
+1600		Greek
+1700		Albanian
+1800		Russian
+1810		Russian, Great Russian
+1811		Great Russian
+1820		Bielo-, White Russian
+1900		Ukrainian, Ruthenian, Little Russian
+1910		Ruthenian
+1920		Little Russian
+1930		Ukrainian
+2000		Czech
+2010		Bohemian
+2020		Moravian
+2100		Polish
+2110		Kashubian, Slovincian
+2200		Slovak
+2300		Serbo-Croatian, Yugoslavian, Slavonian
+2310		Croatian
+2320		Serbian
+2321		Bosnian
+2330		Dalmatian, Montenegrin
+2331		Dalmatian
+2332		Montenegrin
+2400		Slovene
+2500		Lithuanian
+2510		Lettish, Latvian
+2600		Other Balto-Slavic
+2610		Bulgarian
+2620		Lusatian, Sorbian, Wendish
+2621		Wendish
+2630		Macedonian
+2700		Slavic unknown
+2800		Armenian
+2900		Persian, Iranian, Farsi
+2910		Persian
+2920		Dari
+		Other Persian dialects:
+3000		Other Persian dialects
+3010		Pashto, Afghan
+3020		Kurdish
+3030		Balochi
+3040		Tadzhik
+3050		Ossete
+3100		Hindi and related
+3101		Hindi, Hindustani, Indic, Jaipuri, Pali, Urdu
+3102		Hindi
+3103		Urdu
+3104		Other Indo-Iranian languages
+		Other Indo-Aryan:
+3110		Other Indo-Aryan
+3111		Sanskrit
+3112		Bengali
+3113		Panjabi
+3114		Marathi
+3115		Gujarathi
+3116		Bihari
+3117		Rajasthani
+3118		Oriya
+3119		Assamese
+3120		Kashmiri
+3121		Sindhi
+3122		Maldivian
+3123		Sinhalese
+3130		Kannada
+3140		India nec
+3150		Pakistan nec
+3190		Other Indo-European languages
+3200		Romany, Gypsy
+3210		Gypsy
+3300		Finnish
+3400		Magyar, Hungarian
+3401		Magyar
+3402		Hungarian
+3500		Uralic
+3510		Estonian, Ingrian, Livonian, Vepsian,  Votic
+3511		Estonian
+3520		Lapp, Inari, Kola, Lule, Pite, Ruija, Skolt, Ume
+3521		Lappish
+3530		Other Uralic
+3600		Turkish
+3700		Other Altaic
+3701		Chuvash
+3702		Karakalpak
+3703		Kazakh
+3704		Kirghiz
+3705		Karachay, Tatar, Balkar, Bashkir, Kumyk
+3706		Uzbek, Uighur
+3707		Azerbaijani
+3708		Turkmen
+3709		Yakut
+3710		Mongolian
+3711		Tungus
+3800		Caucasian, Georgian, Avar
+3810		Georgian
+3900		Basque
+4000		Dravidian
+4001		Brahui
+4002		Gondi
+4003		Telugu
+4004		Malayalam
+4005		Tamil
+4010		Bhili
+4011		Nepali
+4100		Kurukh
+4110		Munda
+4200		Burushaski
+4300		Chinese
+4301		Chinese, Cantonese, Min, Yueh
+4302		Cantonese
+4303		Mandarin
+		Other Chinese
+4310		Other Chinese
+4311		Hakka, Fukien, Kechia
+4312		Kan, Nan Chang
+4313		Hsiang, Chansa, Hunan, Iyan
+4314		Fuchow, Min Pei
+4315		Wu
+4400		Tibetan
+4410		Miao-Yao, Mien
+4420		Miao, Hmong
+4430		Iu Mien
+4500		Burmese, Lisu, Lolo
+4510		Karen
+4520		Chin languages
+4600		Kachin
+4700		Thai, Siamese, Lao
+4710		Thai
+4720		Laotian
+4800		Japanese
+4900		Korean
+5000		Vietnamese
+		Other East/Southeast Asian:
+5100		Other East/Southeast Asian
+5110		Ainu
+5120		Mon-Khmer, Cambodian
+5130		Siberian, n.e.c.
+5140		Yukagir
+5150		Muong
+5200		Indonesian
+5210		Buginese
+5220		Moluccan
+5230		Achinese
+5240		Balinese
+5250		Cham
+5260		Madurese
+5270		Malay
+5280		Minangkabau
+5290		Other Asian languages
+		Other Malayan:
+5300		Other Malayan
+5310		Formosan, Taiwanese
+5320		Javanese
+5330		Malagasy
+5340		Sundanese
+5400		Filipino, Tagalog
+5410		Bisayan
+5420		Sebuano
+5430		Pangasinan
+5440		Llocano, Hocano
+5450		Bikol
+5460		Pampangan
+5470		Gorontalo
+5480		Palau
+		Miconesian, Polynesian
+5500		Micronesian, Polynesian
+5501		Micronesian
+5502		Carolinian
+5503		Chamorro, Guamanian
+5504		Gilbertese
+5505		Kusaiean
+5506		Marshallese
+5507		Mokilese
+5508		Mortlockese
+5509		Nauruan
+5510		Ponapean
+5511		Trukese
+5512		Ulithean, Fais
+5513		Woleai-Ulithi
+5514		Yapese
+5520		Melanesian
+5521		Polynesian
+5522		Samoan
+5523		Tongan
+5524		Niuean
+5525		Tokelauan
+5526		Fijian
+5527		Marquesan
+5528		Rarotongan
+5529		Maori
+5530		Nukuoro, Kapingarangan
+5590		Other Pacific Island languages
+5600		Hawaiian
+5700		Arabic
+5710		Algerian, Moroccan, Tunisian
+5720		Egyptian
+5730		Iraqi
+5740		Libyan
+5750		Maltese
+5800		Near East Arabic dialect
+5810		Syriac, Aramaic, Chaldean
+5820		Syrian
+5900		Hebrew, Israeli
+6000		Amharic, Ethiopian, etc.
+		Hamitic
+6100		Hamitic
+6110		Berber
+6120		Chadic, Hamitic, Hausa
+6130		Cushite, Beja, Somali
+6200		Other Afro-Asiatic languages
+		Sub-Saharan Africa:
+6300		Nilotic
+6301		Nilo-Hamitic
+6302		Nubian
+6303		Saharan
+6304		Nilo-Saharan, Fur, Songhai
+6305		Khoisan
+6306		Sudanic
+6307		Bantu (many subheads)
+6308		Swahili
+6309		Mande
+6310		Fulani
+6311		Gur
+6312		Kru
+6313		Efik, Ibibio, Tiv
+6314		Mbum, Gbaya, Sango, Zande
+		Sub-Saharan Africa (1960, 1970 only):
+6320		Eastern Sudanic and Khoisan
+6321		Niger-Congo regions (many subheads)
+6322		Congo, Kongo, Luba, Ruanda, Rundi, Santali, Swahili
+6390		Other specified African languages
+6400		African, n.s.
+7000		American Indian (all)
+7100		Aleut, Eskimo
+7110		Aleut
+7120		Pacific Gulf Yupik
+7130		Eskimo
+7140		Inupik, Innuit
+7150		St. Lawrence Isl. Yupik
+7160		Yupik
+7200		Algonquian
+7201		Arapaho
+7202		Atsina, Gros Ventre
+7203		Blackfoot
+7204		Cheyenne
+7205		Cree
+7206		Delaware, Lenni-Lenape
+7207		Fox, Sac
+7208		Kickapoo
+7209		Menomini
+7210		Metis, French Cree
+7211		Miami
+7212		Micmac
+7213		Ojibwa, Chippewa
+7214		Ottawa
+7215		Passamaquoddy, Malecite
+7216		Penobscot
+7217		Abnaki
+7218		Potawatomi
+7219		Shawnee
+7300		Salish, Flathead
+7301		Lower Chehalis
+7302		Upper Chehalis, Chelalis, Satsop
+7303		Clallam
+7304		Coeur dAlene, Skitsamish
+7305		Columbia, Chelan, Wenatchee
+7306		Cowlitz
+7307		Nootsack
+7308		Okanogan
+7309		Puget Sound Salish
+7310		Quinault, Queets
+7311		Tillamook
+7312		Twana
+7313		Kalispel
+7314		Spokane
+7400		Athapascan
+7401		Ahtena
+7402		Han
+7403		Ingalit
+7404		Koyukon
+7405		Kuchin
+7406		Upper Kuskokwim
+7407		Tanaina
+7408		Tanana, Minto
+7409		Tanacross
+7410		Upper Tanana, Nabesena, Tetlin
+7411		Tutchone
+7412		Chasta Costa, Chetco, Coquille, Smith River Athapascan
+7413		Hupa
+7420		Apache
+7421		Jicarilla, Lipan
+7422		Chiricahua, Mescalero
+7423		San Carlos, Cibecue, White Mountain
+7424		Kiowa-Apache
+7430		Kiowa
+7440		Eyak
+7450		Other Athapascan-Eyak, Cahto, Mattole, Wailaki
+7490		Other Algonquin languages
+7500		Navajo
+		Penutian-Sahaptin
+7600		Penutian-Sahaptin
+7610		Klamath, Modoc
+7620		Nez Perce
+7630		Sahaptian, Celilo, Klikitat, Palouse, Tenino, Umatilla, Warm
+		Other Penutian:
+7700		Mountain Maidu, Maidu
+7701		Northwest Maidu, Concow
+7702		Southern Maidu, Nisenan
+7703		Coast Miwok, Bodega, Marin
+7704		Plains Miwok
+7705		Sierra Miwok, Miwok
+7706		Nomlaki, Tehama
+7707		Patwin, Colouse, Suisun
+7708		Wintun
+7709		Foothill North Yokuts
+7710		Tachi
+7711		Santiam, Calapooya, Wapatu
+7712		Siuslaw, Coos, Lower Umpqua
+7713		Tsimshian
+7714		Upper Chinook, Clackamas, Multnomah, Wasco, Wishram
+7715		Chinook Jargon
+7800		Zuni
+		Hokan languages:
+7900		Yuman
+7910		Upriver Yuman
+7920		Cocomaricopa
+7930		Mohave
+7940		Diegueno
+7950		Delta River Yuman
+7960		Upland Yuman
+7970		Havasupai
+7980		Walapai
+7990		Yavapai
+8000		Achumawi
+8010		Atsugewi
+8020		Karok
+8030		Pomo
+8040		Shastan
+8050		Washo
+8060		Chumash
+		Siouan languages:
+8100		Siouan languages
+8101		Crow, Absaroke
+8102		Hidatsa
+8103		Mandan
+8104		Dakota, Lakota, Nakota, Sioux
+8105		Chiwere
+8106		Winnebago
+8107		Kansa, Kaw
+8108		Omaha
+8109		Osage
+8110		Ponca
+8111		Quapaw, Arkansas
+8120		Iowa
+8200		Muskogean
+8210		Alabama
+8220		Choctaw, Chickasaw
+8230		Mikasuki
+8240		Hichita, Apalachicola
+8250		Koasati
+8260		Muskogee, Creek, Seminole
+8300		Keres
+8400		Iroquoian
+8410		Mohawk
+8420		Oneida
+8430		Onondaga
+8440		Cayuga
+8450		Seneca
+8460		Tuscarora
+8470		Wyandot, Huron
+8480		Cherokee
+8500		Caddoan
+8510		Arikara
+8520		Pawnee
+8530		Wichita
+		Uto-Aztecan languages:
+		Shoshonean/Hopi:
+8600		Shoshonean/Hopi
+8601		Comanche
+8602		Mono, Owens Valley Paiute
+8603		Paiute
+8604		Northern Paiute, Bannock, Num, Snake
+8605		Southern Paiute
+8606		Chemehuevi
+8607		Kawaiisu
+8608		Ute
+8609		Shoshoni
+8610		Panamint
+8620		Hopi
+8630		Cahuilla
+8631		Cupeno
+8632		Luiseno
+8633		Serrano
+8640		Tubatulabal
+		Sonoran languages:
+8700		Pima, Papago
+8800		Yaqui
+8810		Sonoran n.e.c., Cahita, Guasave, Huichole, Nayit, Tarahumar
+		Sonoran, n.e.c.:
+8820		Tarahumara
+		Other Uto-Aztecan:
+8900		Aztecan, Nahuatl, Uto-Aztecan
+8910		Aztecan, Mexicano, Nahua
+		Tanoan languages:
+9000		Tanoan languages
+9010		Picuris, Northern Tiwa, Taos
+9020		Tiwa, Isleta
+9030		Sandia
+9040		Tewa, Hano, Hopi-Tewa, San Ildefonso, San Juan, Santa Clara
+9050		Towa
+		Other Indian languages:
+9100		Wiyot
+9101		Yurok
+9110		Kwakiutl
+9111		Nootka
+9112		Makah
+9120		Kutenai
+9130		Haida
+9131		Tlingit, Chilkat, Sitka, Tongass, Yakutat
+9140		Tonkawa
+9150		Yuchi
+9160		Chetemacha
+9170		Yuki
+9171		Wappo
+9200		Mayan languages
+9210		Misumalpan
+9211		Cakchiquel
+9212		Mam
+9213		Maya
+9214		Quekchi
+9215		Quiche
+9220		Tarascan
+		Mapuche
+9230		Mapuche
+9231		Araucanian
+		Oto-Manguen
+9240		Oto-Manguen
+9241		Mixtec
+9242		Zapotec
+9250		Quechua
+9260		Aymara
+		Arawakian
+9270		Arawakian
+9271		Island Caribs
+		Chibchan
+9280		Chibchan
+9281		Cuna
+9282		Guaymi
+		Tupi-Guarani
+9290		Tupi-Guarani
+9291		Tupi
+9292		Guarani
+9300		American Indian, n.s.
+9400		Native
+9410		Other specified American Indian languages
+9420		South/Central American Indian
+9500		No language
+9600		Other or not reported
+9601		Other n.e.c.
+9602		Other n.s.
+9999		
+
+LANGUAGED_MOM2		Language spoken [of same sex mother; detailed version]
+0000		N/A or blank
+0100		English
+0110		Jamaican Creole
+0120		Krio, Pidgin Krio
+0130		Hawaiian Pidgin
+0140		Pidgin
+0150		Gullah, Geechee
+0160		Saramacca
+0170		Other English-based Creole languages
+0200		German
+0210		Austrian
+0220		Swiss
+0230		Luxembourgian
+0240		Pennsylvania Dutch
+0300		Yiddish, Jewish
+0310		Jewish
+0320		Yiddish
+0400		Dutch
+0410		Dutch, Flemish, Belgian
+0420		Afrikaans
+0430		Frisian
+0440		Dutch, Afrikaans, Frisian
+0450		Belgian, Flemish
+0460		Belgian
+0470		Flemish
+0500		Swedish
+0600		Danish
+0700		Norwegian
+0800		Icelandic
+0810		Faroese
+0900		Scandinavian
+1000		Italian
+1010		Rhaeto-Romanic, Ladin
+1020		Friulian
+1030		Romansh
+1100		French
+1110		French, Walloon
+1120		Provencal
+1130		Patois
+1140		French or Haitian Creole
+1150		Cajun
+1200		Spanish
+1210		Catalonian, Valencian
+1220		Ladino, Sefaradit, Spanol
+1230		Pachuco
+1250		Mexican
+1300		Portuguese
+1310		Papia Mentae
+1320		Cape Verdean Creole
+1400		Rumanian
+1500		Celtic
+1510		Welsh, Breton, Cornish
+1520		Welsh
+1530		Breton
+1540		Irish Gaelic, Gaelic
+1550		Gaelic
+1560		Irish
+1570		Scottish Gaelic
+1580		Scotch
+1590		Manx, Manx Gaelic
+1600		Greek
+1700		Albanian
+1800		Russian
+1810		Russian, Great Russian
+1811		Great Russian
+1820		Bielo-, White Russian
+1900		Ukrainian, Ruthenian, Little Russian
+1910		Ruthenian
+1920		Little Russian
+1930		Ukrainian
+2000		Czech
+2010		Bohemian
+2020		Moravian
+2100		Polish
+2110		Kashubian, Slovincian
+2200		Slovak
+2300		Serbo-Croatian, Yugoslavian, Slavonian
+2310		Croatian
+2320		Serbian
+2321		Bosnian
+2330		Dalmatian, Montenegrin
+2331		Dalmatian
+2332		Montenegrin
+2400		Slovene
+2500		Lithuanian
+2510		Lettish, Latvian
+2600		Other Balto-Slavic
+2610		Bulgarian
+2620		Lusatian, Sorbian, Wendish
+2621		Wendish
+2630		Macedonian
+2700		Slavic unknown
+2800		Armenian
+2900		Persian, Iranian, Farsi
+2910		Persian
+2920		Dari
+		Other Persian dialects:
+3000		Other Persian dialects
+3010		Pashto, Afghan
+3020		Kurdish
+3030		Balochi
+3040		Tadzhik
+3050		Ossete
+3100		Hindi and related
+3101		Hindi, Hindustani, Indic, Jaipuri, Pali, Urdu
+3102		Hindi
+3103		Urdu
+3104		Other Indo-Iranian languages
+		Other Indo-Aryan:
+3110		Other Indo-Aryan
+3111		Sanskrit
+3112		Bengali
+3113		Panjabi
+3114		Marathi
+3115		Gujarathi
+3116		Bihari
+3117		Rajasthani
+3118		Oriya
+3119		Assamese
+3120		Kashmiri
+3121		Sindhi
+3122		Maldivian
+3123		Sinhalese
+3130		Kannada
+3140		India nec
+3150		Pakistan nec
+3190		Other Indo-European languages
+3200		Romany, Gypsy
+3210		Gypsy
+3300		Finnish
+3400		Magyar, Hungarian
+3401		Magyar
+3402		Hungarian
+3500		Uralic
+3510		Estonian, Ingrian, Livonian, Vepsian,  Votic
+3511		Estonian
+3520		Lapp, Inari, Kola, Lule, Pite, Ruija, Skolt, Ume
+3521		Lappish
+3530		Other Uralic
+3600		Turkish
+3700		Other Altaic
+3701		Chuvash
+3702		Karakalpak
+3703		Kazakh
+3704		Kirghiz
+3705		Karachay, Tatar, Balkar, Bashkir, Kumyk
+3706		Uzbek, Uighur
+3707		Azerbaijani
+3708		Turkmen
+3709		Yakut
+3710		Mongolian
+3711		Tungus
+3800		Caucasian, Georgian, Avar
+3810		Georgian
+3900		Basque
+4000		Dravidian
+4001		Brahui
+4002		Gondi
+4003		Telugu
+4004		Malayalam
+4005		Tamil
+4010		Bhili
+4011		Nepali
+4100		Kurukh
+4110		Munda
+4200		Burushaski
+4300		Chinese
+4301		Chinese, Cantonese, Min, Yueh
+4302		Cantonese
+4303		Mandarin
+		Other Chinese
+4310		Other Chinese
+4311		Hakka, Fukien, Kechia
+4312		Kan, Nan Chang
+4313		Hsiang, Chansa, Hunan, Iyan
+4314		Fuchow, Min Pei
+4315		Wu
+4400		Tibetan
+4410		Miao-Yao, Mien
+4420		Miao, Hmong
+4430		Iu Mien
+4500		Burmese, Lisu, Lolo
+4510		Karen
+4520		Chin languages
+4600		Kachin
+4700		Thai, Siamese, Lao
+4710		Thai
+4720		Laotian
+4800		Japanese
+4900		Korean
+5000		Vietnamese
+		Other East/Southeast Asian:
+5100		Other East/Southeast Asian
+5110		Ainu
+5120		Mon-Khmer, Cambodian
+5130		Siberian, n.e.c.
+5140		Yukagir
+5150		Muong
+5200		Indonesian
+5210		Buginese
+5220		Moluccan
+5230		Achinese
+5240		Balinese
+5250		Cham
+5260		Madurese
+5270		Malay
+5280		Minangkabau
+5290		Other Asian languages
+		Other Malayan:
+5300		Other Malayan
+5310		Formosan, Taiwanese
+5320		Javanese
+5330		Malagasy
+5340		Sundanese
+5400		Filipino, Tagalog
+5410		Bisayan
+5420		Sebuano
+5430		Pangasinan
+5440		Llocano, Hocano
+5450		Bikol
+5460		Pampangan
+5470		Gorontalo
+5480		Palau
+		Miconesian, Polynesian
+5500		Micronesian, Polynesian
+5501		Micronesian
+5502		Carolinian
+5503		Chamorro, Guamanian
+5504		Gilbertese
+5505		Kusaiean
+5506		Marshallese
+5507		Mokilese
+5508		Mortlockese
+5509		Nauruan
+5510		Ponapean
+5511		Trukese
+5512		Ulithean, Fais
+5513		Woleai-Ulithi
+5514		Yapese
+5520		Melanesian
+5521		Polynesian
+5522		Samoan
+5523		Tongan
+5524		Niuean
+5525		Tokelauan
+5526		Fijian
+5527		Marquesan
+5528		Rarotongan
+5529		Maori
+5530		Nukuoro, Kapingarangan
+5590		Other Pacific Island languages
+5600		Hawaiian
+5700		Arabic
+5710		Algerian, Moroccan, Tunisian
+5720		Egyptian
+5730		Iraqi
+5740		Libyan
+5750		Maltese
+5800		Near East Arabic dialect
+5810		Syriac, Aramaic, Chaldean
+5820		Syrian
+5900		Hebrew, Israeli
+6000		Amharic, Ethiopian, etc.
+		Hamitic
+6100		Hamitic
+6110		Berber
+6120		Chadic, Hamitic, Hausa
+6130		Cushite, Beja, Somali
+6200		Other Afro-Asiatic languages
+		Sub-Saharan Africa:
+6300		Nilotic
+6301		Nilo-Hamitic
+6302		Nubian
+6303		Saharan
+6304		Nilo-Saharan, Fur, Songhai
+6305		Khoisan
+6306		Sudanic
+6307		Bantu (many subheads)
+6308		Swahili
+6309		Mande
+6310		Fulani
+6311		Gur
+6312		Kru
+6313		Efik, Ibibio, Tiv
+6314		Mbum, Gbaya, Sango, Zande
+		Sub-Saharan Africa (1960, 1970 only):
+6320		Eastern Sudanic and Khoisan
+6321		Niger-Congo regions (many subheads)
+6322		Congo, Kongo, Luba, Ruanda, Rundi, Santali, Swahili
+6390		Other specified African languages
+6400		African, n.s.
+7000		American Indian (all)
+7100		Aleut, Eskimo
+7110		Aleut
+7120		Pacific Gulf Yupik
+7130		Eskimo
+7140		Inupik, Innuit
+7150		St. Lawrence Isl. Yupik
+7160		Yupik
+7200		Algonquian
+7201		Arapaho
+7202		Atsina, Gros Ventre
+7203		Blackfoot
+7204		Cheyenne
+7205		Cree
+7206		Delaware, Lenni-Lenape
+7207		Fox, Sac
+7208		Kickapoo
+7209		Menomini
+7210		Metis, French Cree
+7211		Miami
+7212		Micmac
+7213		Ojibwa, Chippewa
+7214		Ottawa
+7215		Passamaquoddy, Malecite
+7216		Penobscot
+7217		Abnaki
+7218		Potawatomi
+7219		Shawnee
+7300		Salish, Flathead
+7301		Lower Chehalis
+7302		Upper Chehalis, Chelalis, Satsop
+7303		Clallam
+7304		Coeur dAlene, Skitsamish
+7305		Columbia, Chelan, Wenatchee
+7306		Cowlitz
+7307		Nootsack
+7308		Okanogan
+7309		Puget Sound Salish
+7310		Quinault, Queets
+7311		Tillamook
+7312		Twana
+7313		Kalispel
+7314		Spokane
+7400		Athapascan
+7401		Ahtena
+7402		Han
+7403		Ingalit
+7404		Koyukon
+7405		Kuchin
+7406		Upper Kuskokwim
+7407		Tanaina
+7408		Tanana, Minto
+7409		Tanacross
+7410		Upper Tanana, Nabesena, Tetlin
+7411		Tutchone
+7412		Chasta Costa, Chetco, Coquille, Smith River Athapascan
+7413		Hupa
+7420		Apache
+7421		Jicarilla, Lipan
+7422		Chiricahua, Mescalero
+7423		San Carlos, Cibecue, White Mountain
+7424		Kiowa-Apache
+7430		Kiowa
+7440		Eyak
+7450		Other Athapascan-Eyak, Cahto, Mattole, Wailaki
+7490		Other Algonquin languages
+7500		Navajo
+		Penutian-Sahaptin
+7600		Penutian-Sahaptin
+7610		Klamath, Modoc
+7620		Nez Perce
+7630		Sahaptian, Celilo, Klikitat, Palouse, Tenino, Umatilla, Warm
+		Other Penutian:
+7700		Mountain Maidu, Maidu
+7701		Northwest Maidu, Concow
+7702		Southern Maidu, Nisenan
+7703		Coast Miwok, Bodega, Marin
+7704		Plains Miwok
+7705		Sierra Miwok, Miwok
+7706		Nomlaki, Tehama
+7707		Patwin, Colouse, Suisun
+7708		Wintun
+7709		Foothill North Yokuts
+7710		Tachi
+7711		Santiam, Calapooya, Wapatu
+7712		Siuslaw, Coos, Lower Umpqua
+7713		Tsimshian
+7714		Upper Chinook, Clackamas, Multnomah, Wasco, Wishram
+7715		Chinook Jargon
+7800		Zuni
+		Hokan languages:
+7900		Yuman
+7910		Upriver Yuman
+7920		Cocomaricopa
+7930		Mohave
+7940		Diegueno
+7950		Delta River Yuman
+7960		Upland Yuman
+7970		Havasupai
+7980		Walapai
+7990		Yavapai
+8000		Achumawi
+8010		Atsugewi
+8020		Karok
+8030		Pomo
+8040		Shastan
+8050		Washo
+8060		Chumash
+		Siouan languages:
+8100		Siouan languages
+8101		Crow, Absaroke
+8102		Hidatsa
+8103		Mandan
+8104		Dakota, Lakota, Nakota, Sioux
+8105		Chiwere
+8106		Winnebago
+8107		Kansa, Kaw
+8108		Omaha
+8109		Osage
+8110		Ponca
+8111		Quapaw, Arkansas
+8120		Iowa
+8200		Muskogean
+8210		Alabama
+8220		Choctaw, Chickasaw
+8230		Mikasuki
+8240		Hichita, Apalachicola
+8250		Koasati
+8260		Muskogee, Creek, Seminole
+8300		Keres
+8400		Iroquoian
+8410		Mohawk
+8420		Oneida
+8430		Onondaga
+8440		Cayuga
+8450		Seneca
+8460		Tuscarora
+8470		Wyandot, Huron
+8480		Cherokee
+8500		Caddoan
+8510		Arikara
+8520		Pawnee
+8530		Wichita
+		Uto-Aztecan languages:
+		Shoshonean/Hopi:
+8600		Shoshonean/Hopi
+8601		Comanche
+8602		Mono, Owens Valley Paiute
+8603		Paiute
+8604		Northern Paiute, Bannock, Num, Snake
+8605		Southern Paiute
+8606		Chemehuevi
+8607		Kawaiisu
+8608		Ute
+8609		Shoshoni
+8610		Panamint
+8620		Hopi
+8630		Cahuilla
+8631		Cupeno
+8632		Luiseno
+8633		Serrano
+8640		Tubatulabal
+		Sonoran languages:
+8700		Pima, Papago
+8800		Yaqui
+8810		Sonoran n.e.c., Cahita, Guasave, Huichole, Nayit, Tarahumar
+		Sonoran, n.e.c.:
+8820		Tarahumara
+		Other Uto-Aztecan:
+8900		Aztecan, Nahuatl, Uto-Aztecan
+8910		Aztecan, Mexicano, Nahua
+		Tanoan languages:
+9000		Tanoan languages
+9010		Picuris, Northern Tiwa, Taos
+9020		Tiwa, Isleta
+9030		Sandia
+9040		Tewa, Hano, Hopi-Tewa, San Ildefonso, San Juan, Santa Clara
+9050		Towa
+		Other Indian languages:
+9100		Wiyot
+9101		Yurok
+9110		Kwakiutl
+9111		Nootka
+9112		Makah
+9120		Kutenai
+9130		Haida
+9131		Tlingit, Chilkat, Sitka, Tongass, Yakutat
+9140		Tonkawa
+9150		Yuchi
+9160		Chetemacha
+9170		Yuki
+9171		Wappo
+9200		Mayan languages
+9210		Misumalpan
+9211		Cakchiquel
+9212		Mam
+9213		Maya
+9214		Quekchi
+9215		Quiche
+9220		Tarascan
+		Mapuche
+9230		Mapuche
+9231		Araucanian
+		Oto-Manguen
+9240		Oto-Manguen
+9241		Mixtec
+9242		Zapotec
+9250		Quechua
+9260		Aymara
+		Arawakian
+9270		Arawakian
+9271		Island Caribs
+		Chibchan
+9280		Chibchan
+9281		Cuna
+9282		Guaymi
+		Tupi-Guarani
+9290		Tupi-Guarani
+9291		Tupi
+9292		Guarani
+9300		American Indian, n.s.
+9400		Native
+9410		Other specified American Indian languages
+9420		South/Central American Indian
+9500		No language
+9600		Other or not reported
+9601		Other n.e.c.
+9602		Other n.s.
+9999		
+
+LANGUAGED_POP2		Language spoken [of same sex father; detailed version]
+0000		N/A or blank
+0100		English
+0110		Jamaican Creole
+0120		Krio, Pidgin Krio
+0130		Hawaiian Pidgin
+0140		Pidgin
+0150		Gullah, Geechee
+0160		Saramacca
+0170		Other English-based Creole languages
+0200		German
+0210		Austrian
+0220		Swiss
+0230		Luxembourgian
+0240		Pennsylvania Dutch
+0300		Yiddish, Jewish
+0310		Jewish
+0320		Yiddish
+0400		Dutch
+0410		Dutch, Flemish, Belgian
+0420		Afrikaans
+0430		Frisian
+0440		Dutch, Afrikaans, Frisian
+0450		Belgian, Flemish
+0460		Belgian
+0470		Flemish
+0500		Swedish
+0600		Danish
+0700		Norwegian
+0800		Icelandic
+0810		Faroese
+0900		Scandinavian
+1000		Italian
+1010		Rhaeto-Romanic, Ladin
+1020		Friulian
+1030		Romansh
+1100		French
+1110		French, Walloon
+1120		Provencal
+1130		Patois
+1140		French or Haitian Creole
+1150		Cajun
+1200		Spanish
+1210		Catalonian, Valencian
+1220		Ladino, Sefaradit, Spanol
+1230		Pachuco
+1250		Mexican
+1300		Portuguese
+1310		Papia Mentae
+1320		Cape Verdean Creole
+1400		Rumanian
+1500		Celtic
+1510		Welsh, Breton, Cornish
+1520		Welsh
+1530		Breton
+1540		Irish Gaelic, Gaelic
+1550		Gaelic
+1560		Irish
+1570		Scottish Gaelic
+1580		Scotch
+1590		Manx, Manx Gaelic
+1600		Greek
+1700		Albanian
+1800		Russian
+1810		Russian, Great Russian
+1811		Great Russian
+1820		Bielo-, White Russian
+1900		Ukrainian, Ruthenian, Little Russian
+1910		Ruthenian
+1920		Little Russian
+1930		Ukrainian
+2000		Czech
+2010		Bohemian
+2020		Moravian
+2100		Polish
+2110		Kashubian, Slovincian
+2200		Slovak
+2300		Serbo-Croatian, Yugoslavian, Slavonian
+2310		Croatian
+2320		Serbian
+2321		Bosnian
+2330		Dalmatian, Montenegrin
+2331		Dalmatian
+2332		Montenegrin
+2400		Slovene
+2500		Lithuanian
+2510		Lettish, Latvian
+2600		Other Balto-Slavic
+2610		Bulgarian
+2620		Lusatian, Sorbian, Wendish
+2621		Wendish
+2630		Macedonian
+2700		Slavic unknown
+2800		Armenian
+2900		Persian, Iranian, Farsi
+2910		Persian
+2920		Dari
+		Other Persian dialects:
+3000		Other Persian dialects
+3010		Pashto, Afghan
+3020		Kurdish
+3030		Balochi
+3040		Tadzhik
+3050		Ossete
+3100		Hindi and related
+3101		Hindi, Hindustani, Indic, Jaipuri, Pali, Urdu
+3102		Hindi
+3103		Urdu
+3104		Other Indo-Iranian languages
+		Other Indo-Aryan:
+3110		Other Indo-Aryan
+3111		Sanskrit
+3112		Bengali
+3113		Panjabi
+3114		Marathi
+3115		Gujarathi
+3116		Bihari
+3117		Rajasthani
+3118		Oriya
+3119		Assamese
+3120		Kashmiri
+3121		Sindhi
+3122		Maldivian
+3123		Sinhalese
+3130		Kannada
+3140		India nec
+3150		Pakistan nec
+3190		Other Indo-European languages
+3200		Romany, Gypsy
+3210		Gypsy
+3300		Finnish
+3400		Magyar, Hungarian
+3401		Magyar
+3402		Hungarian
+3500		Uralic
+3510		Estonian, Ingrian, Livonian, Vepsian,  Votic
+3511		Estonian
+3520		Lapp, Inari, Kola, Lule, Pite, Ruija, Skolt, Ume
+3521		Lappish
+3530		Other Uralic
+3600		Turkish
+3700		Other Altaic
+3701		Chuvash
+3702		Karakalpak
+3703		Kazakh
+3704		Kirghiz
+3705		Karachay, Tatar, Balkar, Bashkir, Kumyk
+3706		Uzbek, Uighur
+3707		Azerbaijani
+3708		Turkmen
+3709		Yakut
+3710		Mongolian
+3711		Tungus
+3800		Caucasian, Georgian, Avar
+3810		Georgian
+3900		Basque
+4000		Dravidian
+4001		Brahui
+4002		Gondi
+4003		Telugu
+4004		Malayalam
+4005		Tamil
+4010		Bhili
+4011		Nepali
+4100		Kurukh
+4110		Munda
+4200		Burushaski
+4300		Chinese
+4301		Chinese, Cantonese, Min, Yueh
+4302		Cantonese
+4303		Mandarin
+		Other Chinese
+4310		Other Chinese
+4311		Hakka, Fukien, Kechia
+4312		Kan, Nan Chang
+4313		Hsiang, Chansa, Hunan, Iyan
+4314		Fuchow, Min Pei
+4315		Wu
+4400		Tibetan
+4410		Miao-Yao, Mien
+4420		Miao, Hmong
+4430		Iu Mien
+4500		Burmese, Lisu, Lolo
+4510		Karen
+4520		Chin languages
+4600		Kachin
+4700		Thai, Siamese, Lao
+4710		Thai
+4720		Laotian
+4800		Japanese
+4900		Korean
+5000		Vietnamese
+		Other East/Southeast Asian:
+5100		Other East/Southeast Asian
+5110		Ainu
+5120		Mon-Khmer, Cambodian
+5130		Siberian, n.e.c.
+5140		Yukagir
+5150		Muong
+5200		Indonesian
+5210		Buginese
+5220		Moluccan
+5230		Achinese
+5240		Balinese
+5250		Cham
+5260		Madurese
+5270		Malay
+5280		Minangkabau
+5290		Other Asian languages
+		Other Malayan:
+5300		Other Malayan
+5310		Formosan, Taiwanese
+5320		Javanese
+5330		Malagasy
+5340		Sundanese
+5400		Filipino, Tagalog
+5410		Bisayan
+5420		Sebuano
+5430		Pangasinan
+5440		Llocano, Hocano
+5450		Bikol
+5460		Pampangan
+5470		Gorontalo
+5480		Palau
+		Miconesian, Polynesian
+5500		Micronesian, Polynesian
+5501		Micronesian
+5502		Carolinian
+5503		Chamorro, Guamanian
+5504		Gilbertese
+5505		Kusaiean
+5506		Marshallese
+5507		Mokilese
+5508		Mortlockese
+5509		Nauruan
+5510		Ponapean
+5511		Trukese
+5512		Ulithean, Fais
+5513		Woleai-Ulithi
+5514		Yapese
+5520		Melanesian
+5521		Polynesian
+5522		Samoan
+5523		Tongan
+5524		Niuean
+5525		Tokelauan
+5526		Fijian
+5527		Marquesan
+5528		Rarotongan
+5529		Maori
+5530		Nukuoro, Kapingarangan
+5590		Other Pacific Island languages
+5600		Hawaiian
+5700		Arabic
+5710		Algerian, Moroccan, Tunisian
+5720		Egyptian
+5730		Iraqi
+5740		Libyan
+5750		Maltese
+5800		Near East Arabic dialect
+5810		Syriac, Aramaic, Chaldean
+5820		Syrian
+5900		Hebrew, Israeli
+6000		Amharic, Ethiopian, etc.
+		Hamitic
+6100		Hamitic
+6110		Berber
+6120		Chadic, Hamitic, Hausa
+6130		Cushite, Beja, Somali
+6200		Other Afro-Asiatic languages
+		Sub-Saharan Africa:
+6300		Nilotic
+6301		Nilo-Hamitic
+6302		Nubian
+6303		Saharan
+6304		Nilo-Saharan, Fur, Songhai
+6305		Khoisan
+6306		Sudanic
+6307		Bantu (many subheads)
+6308		Swahili
+6309		Mande
+6310		Fulani
+6311		Gur
+6312		Kru
+6313		Efik, Ibibio, Tiv
+6314		Mbum, Gbaya, Sango, Zande
+		Sub-Saharan Africa (1960, 1970 only):
+6320		Eastern Sudanic and Khoisan
+6321		Niger-Congo regions (many subheads)
+6322		Congo, Kongo, Luba, Ruanda, Rundi, Santali, Swahili
+6390		Other specified African languages
+6400		African, n.s.
+7000		American Indian (all)
+7100		Aleut, Eskimo
+7110		Aleut
+7120		Pacific Gulf Yupik
+7130		Eskimo
+7140		Inupik, Innuit
+7150		St. Lawrence Isl. Yupik
+7160		Yupik
+7200		Algonquian
+7201		Arapaho
+7202		Atsina, Gros Ventre
+7203		Blackfoot
+7204		Cheyenne
+7205		Cree
+7206		Delaware, Lenni-Lenape
+7207		Fox, Sac
+7208		Kickapoo
+7209		Menomini
+7210		Metis, French Cree
+7211		Miami
+7212		Micmac
+7213		Ojibwa, Chippewa
+7214		Ottawa
+7215		Passamaquoddy, Malecite
+7216		Penobscot
+7217		Abnaki
+7218		Potawatomi
+7219		Shawnee
+7300		Salish, Flathead
+7301		Lower Chehalis
+7302		Upper Chehalis, Chelalis, Satsop
+7303		Clallam
+7304		Coeur dAlene, Skitsamish
+7305		Columbia, Chelan, Wenatchee
+7306		Cowlitz
+7307		Nootsack
+7308		Okanogan
+7309		Puget Sound Salish
+7310		Quinault, Queets
+7311		Tillamook
+7312		Twana
+7313		Kalispel
+7314		Spokane
+7400		Athapascan
+7401		Ahtena
+7402		Han
+7403		Ingalit
+7404		Koyukon
+7405		Kuchin
+7406		Upper Kuskokwim
+7407		Tanaina
+7408		Tanana, Minto
+7409		Tanacross
+7410		Upper Tanana, Nabesena, Tetlin
+7411		Tutchone
+7412		Chasta Costa, Chetco, Coquille, Smith River Athapascan
+7413		Hupa
+7420		Apache
+7421		Jicarilla, Lipan
+7422		Chiricahua, Mescalero
+7423		San Carlos, Cibecue, White Mountain
+7424		Kiowa-Apache
+7430		Kiowa
+7440		Eyak
+7450		Other Athapascan-Eyak, Cahto, Mattole, Wailaki
+7490		Other Algonquin languages
+7500		Navajo
+		Penutian-Sahaptin
+7600		Penutian-Sahaptin
+7610		Klamath, Modoc
+7620		Nez Perce
+7630		Sahaptian, Celilo, Klikitat, Palouse, Tenino, Umatilla, Warm
+		Other Penutian:
+7700		Mountain Maidu, Maidu
+7701		Northwest Maidu, Concow
+7702		Southern Maidu, Nisenan
+7703		Coast Miwok, Bodega, Marin
+7704		Plains Miwok
+7705		Sierra Miwok, Miwok
+7706		Nomlaki, Tehama
+7707		Patwin, Colouse, Suisun
+7708		Wintun
+7709		Foothill North Yokuts
+7710		Tachi
+7711		Santiam, Calapooya, Wapatu
+7712		Siuslaw, Coos, Lower Umpqua
+7713		Tsimshian
+7714		Upper Chinook, Clackamas, Multnomah, Wasco, Wishram
+7715		Chinook Jargon
+7800		Zuni
+		Hokan languages:
+7900		Yuman
+7910		Upriver Yuman
+7920		Cocomaricopa
+7930		Mohave
+7940		Diegueno
+7950		Delta River Yuman
+7960		Upland Yuman
+7970		Havasupai
+7980		Walapai
+7990		Yavapai
+8000		Achumawi
+8010		Atsugewi
+8020		Karok
+8030		Pomo
+8040		Shastan
+8050		Washo
+8060		Chumash
+		Siouan languages:
+8100		Siouan languages
+8101		Crow, Absaroke
+8102		Hidatsa
+8103		Mandan
+8104		Dakota, Lakota, Nakota, Sioux
+8105		Chiwere
+8106		Winnebago
+8107		Kansa, Kaw
+8108		Omaha
+8109		Osage
+8110		Ponca
+8111		Quapaw, Arkansas
+8120		Iowa
+8200		Muskogean
+8210		Alabama
+8220		Choctaw, Chickasaw
+8230		Mikasuki
+8240		Hichita, Apalachicola
+8250		Koasati
+8260		Muskogee, Creek, Seminole
+8300		Keres
+8400		Iroquoian
+8410		Mohawk
+8420		Oneida
+8430		Onondaga
+8440		Cayuga
+8450		Seneca
+8460		Tuscarora
+8470		Wyandot, Huron
+8480		Cherokee
+8500		Caddoan
+8510		Arikara
+8520		Pawnee
+8530		Wichita
+		Uto-Aztecan languages:
+		Shoshonean/Hopi:
+8600		Shoshonean/Hopi
+8601		Comanche
+8602		Mono, Owens Valley Paiute
+8603		Paiute
+8604		Northern Paiute, Bannock, Num, Snake
+8605		Southern Paiute
+8606		Chemehuevi
+8607		Kawaiisu
+8608		Ute
+8609		Shoshoni
+8610		Panamint
+8620		Hopi
+8630		Cahuilla
+8631		Cupeno
+8632		Luiseno
+8633		Serrano
+8640		Tubatulabal
+		Sonoran languages:
+8700		Pima, Papago
+8800		Yaqui
+8810		Sonoran n.e.c., Cahita, Guasave, Huichole, Nayit, Tarahumar
+		Sonoran, n.e.c.:
+8820		Tarahumara
+		Other Uto-Aztecan:
+8900		Aztecan, Nahuatl, Uto-Aztecan
+8910		Aztecan, Mexicano, Nahua
+		Tanoan languages:
+9000		Tanoan languages
+9010		Picuris, Northern Tiwa, Taos
+9020		Tiwa, Isleta
+9030		Sandia
+9040		Tewa, Hano, Hopi-Tewa, San Ildefonso, San Juan, Santa Clara
+9050		Towa
+		Other Indian languages:
+9100		Wiyot
+9101		Yurok
+9110		Kwakiutl
+9111		Nootka
+9112		Makah
+9120		Kutenai
+9130		Haida
+9131		Tlingit, Chilkat, Sitka, Tongass, Yakutat
+9140		Tonkawa
+9150		Yuchi
+9160		Chetemacha
+9170		Yuki
+9171		Wappo
+9200		Mayan languages
+9210		Misumalpan
+9211		Cakchiquel
+9212		Mam
+9213		Maya
+9214		Quekchi
+9215		Quiche
+9220		Tarascan
+		Mapuche
+9230		Mapuche
+9231		Araucanian
+		Oto-Manguen
+9240		Oto-Manguen
+9241		Mixtec
+9242		Zapotec
+9250		Quechua
+9260		Aymara
+		Arawakian
+9270		Arawakian
+9271		Island Caribs
+		Chibchan
+9280		Chibchan
+9281		Cuna
+9282		Guaymi
+		Tupi-Guarani
+9290		Tupi-Guarani
+9291		Tupi
+9292		Guarani
+9300		American Indian, n.s.
+9400		Native
+9410		Other specified American Indian languages
+9420		South/Central American Indian
+9500		No language
+9600		Other or not reported
+9601		Other n.e.c.
+9602		Other n.s.
+9999		
+
+SPEAKENG_MOM		Speaks English [of mother]
+0		N/A (Blank)
+1		Does not speak English
+2		Yes, speaks English...
+3		Yes, speaks only English
+4		Yes, speaks very well
+5		Yes, speaks well
+6		Yes, but not well
+7		Unknown
+8		Illegible
+
+SPEAKENG_POP		Speaks English [of father]
+0		N/A (Blank)
+1		Does not speak English
+2		Yes, speaks English...
+3		Yes, speaks only English
+4		Yes, speaks very well
+5		Yes, speaks well
+6		Yes, but not well
+7		Unknown
+8		Illegible
+
+SPEAKENG_MOM2		Speaks English [of same sex mother]
+0		N/A (Blank)
+1		Does not speak English
+2		Yes, speaks English...
+3		Yes, speaks only English
+4		Yes, speaks very well
+5		Yes, speaks well
+6		Yes, but not well
+7		Unknown
+8		Illegible
+
+SPEAKENG_POP2		Speaks English [of same sex father]
+0		N/A (Blank)
+1		Does not speak English
+2		Yes, speaks English...
+3		Yes, speaks only English
+4		Yes, speaks very well
+5		Yes, speaks well
+6		Yes, but not well
+7		Unknown
+8		Illegible
+
+EDUC_MOM		Educational attainment [of mother; general version]
+00		N/A or no schooling
+01		Nursery school to grade 4
+02		Grade 5, 6, 7, or 8
+03		Grade 9
+04		Grade 10
+05		Grade 11
+06		Grade 12
+07		1 year of college
+08		2 years of college
+09		3 years of college
+10		4 years of college
+11		5+ years of college
+
+EDUC_POP		Educational attainment [of father; general version]
+00		N/A or no schooling
+01		Nursery school to grade 4
+02		Grade 5, 6, 7, or 8
+03		Grade 9
+04		Grade 10
+05		Grade 11
+06		Grade 12
+07		1 year of college
+08		2 years of college
+09		3 years of college
+10		4 years of college
+11		5+ years of college
+
+EDUC_MOM2		Educational attainment [of same sex mother; general version]
+00		N/A or no schooling
+01		Nursery school to grade 4
+02		Grade 5, 6, 7, or 8
+03		Grade 9
+04		Grade 10
+05		Grade 11
+06		Grade 12
+07		1 year of college
+08		2 years of college
+09		3 years of college
+10		4 years of college
+11		5+ years of college
+
+EDUC_POP2		Educational attainment [of same sex father; general version]
+00		N/A or no schooling
+01		Nursery school to grade 4
+02		Grade 5, 6, 7, or 8
+03		Grade 9
+04		Grade 10
+05		Grade 11
+06		Grade 12
+07		1 year of college
+08		2 years of college
+09		3 years of college
+10		4 years of college
+11		5+ years of college
+
+EDUCD_MOM		Educational attainment [of mother; detailed version]
+000		N/A or no schooling
+001		N/A
+002		No schooling completed
+010		Nursery school to grade 4
+011		Nursery school, preschool
+012		Kindergarten
+013		Grade 1, 2, 3, or 4
+014		Grade 1
+015		Grade 2
+016		Grade 3
+017		Grade 4
+020		Grade 5, 6, 7, or 8
+021		Grade 5 or 6
+022		Grade 5
+023		Grade 6
+024		Grade 7 or 8
+025		Grade 7
+026		Grade 8
+030		Grade 9
+040		Grade 10
+050		Grade 11
+060		Grade 12
+061		12th grade, no diploma
+062		High school graduate or GED
+063		Regular high school diploma
+064		GED or alternative credential
+065		Some college, but less than 1 year
+070		1 year of college
+071		1 or more years of college credit, no degree
+080		2 years of college
+081		Associate's degree, type not specified
+082		Associate's degree, occupational program
+083		Associate's degree, academic program
+090		3 years of college
+100		4 years of college
+101		Bachelor's degree
+110		5+ years of college
+111		6 years of college (6+ in 1960-1970)
+112		7 years of college
+113		8+ years of college
+114		Master's degree
+115		Professional degree beyond a bachelor's degree
+116		Doctoral degree
+999		Missing
+
+EDUCD_POP		Educational attainment [of father; detailed version]
+000		N/A or no schooling
+001		N/A
+002		No schooling completed
+010		Nursery school to grade 4
+011		Nursery school, preschool
+012		Kindergarten
+013		Grade 1, 2, 3, or 4
+014		Grade 1
+015		Grade 2
+016		Grade 3
+017		Grade 4
+020		Grade 5, 6, 7, or 8
+021		Grade 5 or 6
+022		Grade 5
+023		Grade 6
+024		Grade 7 or 8
+025		Grade 7
+026		Grade 8
+030		Grade 9
+040		Grade 10
+050		Grade 11
+060		Grade 12
+061		12th grade, no diploma
+062		High school graduate or GED
+063		Regular high school diploma
+064		GED or alternative credential
+065		Some college, but less than 1 year
+070		1 year of college
+071		1 or more years of college credit, no degree
+080		2 years of college
+081		Associate's degree, type not specified
+082		Associate's degree, occupational program
+083		Associate's degree, academic program
+090		3 years of college
+100		4 years of college
+101		Bachelor's degree
+110		5+ years of college
+111		6 years of college (6+ in 1960-1970)
+112		7 years of college
+113		8+ years of college
+114		Master's degree
+115		Professional degree beyond a bachelor's degree
+116		Doctoral degree
+999		Missing
+
+EDUCD_MOM2		Educational attainment [of same sex mother; detailed version]
+000		N/A or no schooling
+001		N/A
+002		No schooling completed
+010		Nursery school to grade 4
+011		Nursery school, preschool
+012		Kindergarten
+013		Grade 1, 2, 3, or 4
+014		Grade 1
+015		Grade 2
+016		Grade 3
+017		Grade 4
+020		Grade 5, 6, 7, or 8
+021		Grade 5 or 6
+022		Grade 5
+023		Grade 6
+024		Grade 7 or 8
+025		Grade 7
+026		Grade 8
+030		Grade 9
+040		Grade 10
+050		Grade 11
+060		Grade 12
+061		12th grade, no diploma
+062		High school graduate or GED
+063		Regular high school diploma
+064		GED or alternative credential
+065		Some college, but less than 1 year
+070		1 year of college
+071		1 or more years of college credit, no degree
+080		2 years of college
+081		Associate's degree, type not specified
+082		Associate's degree, occupational program
+083		Associate's degree, academic program
+090		3 years of college
+100		4 years of college
+101		Bachelor's degree
+110		5+ years of college
+111		6 years of college (6+ in 1960-1970)
+112		7 years of college
+113		8+ years of college
+114		Master's degree
+115		Professional degree beyond a bachelor's degree
+116		Doctoral degree
+999		Missing
+
+EDUCD_POP2		Educational attainment [of same sex father; detailed version]
+000		N/A or no schooling
+001		N/A
+002		No schooling completed
+010		Nursery school to grade 4
+011		Nursery school, preschool
+012		Kindergarten
+013		Grade 1, 2, 3, or 4
+014		Grade 1
+015		Grade 2
+016		Grade 3
+017		Grade 4
+020		Grade 5, 6, 7, or 8
+021		Grade 5 or 6
+022		Grade 5
+023		Grade 6
+024		Grade 7 or 8
+025		Grade 7
+026		Grade 8
+030		Grade 9
+040		Grade 10
+050		Grade 11
+060		Grade 12
+061		12th grade, no diploma
+062		High school graduate or GED
+063		Regular high school diploma
+064		GED or alternative credential
+065		Some college, but less than 1 year
+070		1 year of college
+071		1 or more years of college credit, no degree
+080		2 years of college
+081		Associate's degree, type not specified
+082		Associate's degree, occupational program
+083		Associate's degree, academic program
+090		3 years of college
+100		4 years of college
+101		Bachelor's degree
+110		5+ years of college
+111		6 years of college (6+ in 1960-1970)
+112		7 years of college
+113		8+ years of college
+114		Master's degree
+115		Professional degree beyond a bachelor's degree
+116		Doctoral degree
+999		Missing
+
+EMPSTAT_MOM		Employment status [of mother; general version]
+0		N/A
+1		Employed
+2		Unemployed
+3		Not in labor force
+
+EMPSTAT_POP		Employment status [of father; general version]
+0		N/A
+1		Employed
+2		Unemployed
+3		Not in labor force
+
+EMPSTAT_MOM2		Employment status [of same sex mother; general version]
+0		N/A
+1		Employed
+2		Unemployed
+3		Not in labor force
+
+EMPSTAT_POP2		Employment status [of same sex father; general version]
+0		N/A
+1		Employed
+2		Unemployed
+3		Not in labor force
+
+EMPSTATD_MOM		Employment status [of mother; detailed version]
+00		N/A
+		In Labor Force
+		Employed
+10		At work
+11		At work, public emerg
+12		Has job, not working
+13		Armed forces
+14		Armed forces--at work
+15		Armed forces--not at work but with job
+20		Unemployed
+21		Unemp, exper worker
+22		Unemp, new worker
+30		Not in Labor Force
+31		NILF, housework
+32		NILF, unable to work
+33		NILF, school
+34		NILF, other
+
+EMPSTATD_POP		Employment status [of father; detailed version]
+00		N/A
+		In Labor Force
+		Employed
+10		At work
+11		At work, public emerg
+12		Has job, not working
+13		Armed forces
+14		Armed forces--at work
+15		Armed forces--not at work but with job
+20		Unemployed
+21		Unemp, exper worker
+22		Unemp, new worker
+30		Not in Labor Force
+31		NILF, housework
+32		NILF, unable to work
+33		NILF, school
+34		NILF, other
+
+EMPSTATD_MOM2		Employment status [of same sex mother; detailed version]
+00		N/A
+		In Labor Force
+		Employed
+10		At work
+11		At work, public emerg
+12		Has job, not working
+13		Armed forces
+14		Armed forces--at work
+15		Armed forces--not at work but with job
+20		Unemployed
+21		Unemp, exper worker
+22		Unemp, new worker
+30		Not in Labor Force
+31		NILF, housework
+32		NILF, unable to work
+33		NILF, school
+34		NILF, other
+
+EMPSTATD_POP2		Employment status [of same sex father; detailed version]
 00		N/A
 		In Labor Force
 		Employed
