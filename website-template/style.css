@@ -1,0 +1,14 @@
+.title {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: "#8c96c6";
+}
+
+.d3-tip{
+	position: absolute;
+	font-weight: bold;
+	font-family: sans-serif;
+	margin-left: 35px;
+	text-align: center;
+	z-index: 2;	
+}
+
