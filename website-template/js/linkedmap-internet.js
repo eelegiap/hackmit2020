@@ -147,7 +147,7 @@ function drawGraphic(width) {
     .attr('class', 'title')
     .attr('fill', '#8c96c6')
     .attr('font-weight', 'bold')
-    .text("Free or Reduced Lunch");
+    .text("Lack of Household Internet Access");
 map.append('text')
     .attr('x', 450)
     .attr('y', 8)
@@ -155,7 +155,7 @@ map.append('text')
     .attr('text-anchor', 'middle') 
     .attr('fill', '#8c96c6') 
     .attr('class', 'title')
-    .text("Percent of students who qualify for free or reduced lunch in the US");
+    .text("Estimated percent of students who lack any form of household internet access");
 
 
 
@@ -398,7 +398,7 @@ d3.select(".x path.domain").style("opacity",0)
 
 
 d3.select('#source')
-.text('Source: ' + config2.essential.sourceText);
+.text('Source: American Community Survey');
 
         d3.selectAll("text").attr("font-family","'Open Sans', sans-serif");
 
