@@ -67,11 +67,11 @@ function drawGraphic(width) {
     //specify number or ticks on x axis
     // HELPED WITH NUMBER OF TICKS
     if (parseInt(graphic.style("width")) <= config2.optional.mobileBreakpoint) {
-        xAxis.ticks(8)
+        xAxis.ticks(4)
         } else if (parseInt(graphic.style("width")) <= 768){
-        xAxis.ticks(8)
+        xAxis.ticks(4)
         } else {
-        xAxis.ticks(8)
+        xAxis.ticks(4)
         }
 
 
@@ -525,7 +525,7 @@ var regionText = d3.select('#num-region')
 
 
 regionText.append('p')
-            .text(areaName+': '+ value +'%.')
+            .text(areaName+': '+ value +' students.')
     // console.log('d attrobite:', d3.select(path).attr("d"));
     d3.selectAll('.geogg')
             .append("path")
