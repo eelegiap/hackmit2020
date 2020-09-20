@@ -149,7 +149,7 @@ function drawGraphic(width) {
                 .attr('class', 'title')
                 .attr('fill', '#8c96c6')
                 .attr('font-weight', 'bold')
-                .text("Bedroom");
+                .text("Inadequate Space");
             map.append('text')
                 .attr('x', 450)
                 .attr('y', 8)
@@ -157,7 +157,7 @@ function drawGraphic(width) {
                 .attr('text-anchor', 'middle') 
                 .attr('fill', '#8c96c6') 
                 .attr('class', 'title')
-                .text("Percent of students who qualify for  bedrooms in the US");
+                .text("Percent of students who lack adequate study space");
 
 
 

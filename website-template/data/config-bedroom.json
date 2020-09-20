@@ -2,7 +2,6 @@
     "essential" : {
 
             "colour_palette":[
-                "#D9E8F2",
                 "#B9BCDB",
                 "#9A91C4",
                 "#8A7BB9",
@@ -44,8 +43,8 @@
             "aspectRatio_sm" : [4,7],
             "aspectRatio_md" : [1,1],
             "aspectRatio_lg" : [16,10],
-            "number_breaks" : 7,
-            "breaks_choice" : [24, 31, 39, 46, 54, 61, 69, 77],
+            "number_breaks" : 6,
+            "breaks_choice" : [0, 5, 15, 20, 25, 30, 35],
             "mobileBreakpoint" : 550,
 
             "x_num_ticks_sm_md_lg" : [6,8,5],
