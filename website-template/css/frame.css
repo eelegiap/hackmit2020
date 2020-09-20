@@ -10,7 +10,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #F3E6DA;
+  background-color: white;
   font-family: 'Overpass Mono', Helvetica, Arial, sans-serif;
   left: 0;
   right: 0;
@@ -113,7 +113,7 @@ hr {
 }
 
 .logo a {
-  color: black;
+  color: #5f0f40;
   font-family: 'Overpass Mono', Helvetica, Arial, sans-serif;
   font-size: 30px;
   text-decoration: none;
