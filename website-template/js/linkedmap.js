@@ -139,6 +139,24 @@ function drawGraphic(width) {
                 .attr("height", height)
                 .attr("fill","transparent")
 
+                map.append("text")
+    .attr('x', 450)
+    .attr('y', -10)
+    .attr('font-size', 18)
+    .attr('text-anchor', 'middle')
+    .attr('class', 'title')
+    .attr('fill', '#8c96c6')
+    .attr('font-weight', 'bold')
+    .text("Free or Reduced Lunch");
+map.append('text')
+    .attr('x', 450)
+    .attr('y', 8)
+    .attr('font-size', 15)  
+    .attr('text-anchor', 'middle') 
+    .attr('fill', '#8c96c6') 
+    .attr('class', 'title')
+    .text("Percent of students who qualify for free or reduced lunch in the US");
+
 
 
     //create svg for chart

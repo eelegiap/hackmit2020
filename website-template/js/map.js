@@ -13,7 +13,7 @@ svg.append("text")
     .attr('class', 'title')
     .attr('fill', '#8c96c6')
     .attr('font-weight', 'bold')
-    .text("Land of opportunity");
+    .text("Free or Reduced Lunch");
 svg.append('text')
     .attr('x', 450)
     .attr('y', 60)
@@ -21,7 +21,7 @@ svg.append('text')
     .attr('text-anchor', 'middle') 
     .attr('fill', '#8c96c6') 
     .attr('class', 'title')
-    .text("Proportion of people with bachelors degrees or higher in US counties");
+    .text("Percent of students who qualify for free or reduced lunch in the US");
 
 var colors = ["#edf8fb", "#bfd3e6", "#9ebcda", "#8c96c6", "#8856a7", "#810f7c"];
     
