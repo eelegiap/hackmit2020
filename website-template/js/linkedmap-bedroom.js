@@ -400,7 +400,7 @@ d3.select(".x path.domain").style("opacity",0)
 
 
 d3.select('#source')
-.text('Source: NCES, Kids Count Data Center, AZ Dept. of Education, MA Dept. of Education');
+.text('Source: American Community Survey, IPUMS USA, University of Minnesota, www.ipums.org.');
 
         d3.selectAll("text").attr("font-family","'Open Sans', sans-serif");
 
