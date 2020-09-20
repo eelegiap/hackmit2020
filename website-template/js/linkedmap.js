@@ -31,9 +31,9 @@ function drawGraphic(width) {
     //         height = config2.essential.barHeight_sm_md_lg[2] * data2.length - margin.top - margin.bottom;
     // }
     var margin = {top: config2.optional.margin_lg[0], right: config2.optional.margin_lg[1], bottom: config2.optional.margin_lg[2], left: config2.optional.margin_lg[3]}
-    chart_width = parseInt(graphic.style("width"))*0.25 - margin.left - margin.right;
+    chart_width = 250;
     map_width = parseInt(graphic.style("width"))- chart_width - margin.left - margin.right;
-    height = 750;
+    height = 700;
 
     // clear out existing graphics
     graphic.selectAll("*").remove();
@@ -43,8 +43,9 @@ function drawGraphic(width) {
 
     center = [map_width / 2, height / 2];
 
+// HELPeD WITH SCALING
     var x = d3.scaleLinear()
-        .range([ 0, chart_width]);
+        .range([ 0, chart_width/1.5]);
 
     var y = d3.scaleBand()
         .rangeRound([0, height])
@@ -64,12 +65,13 @@ function drawGraphic(width) {
     .tickSize(-height, 0, 0);
 
     //specify number or ticks on x axis
+    // HELPED WITH NUMBER OF TICKS
     if (parseInt(graphic.style("width")) <= config2.optional.mobileBreakpoint) {
-        xAxis.ticks(config2.optional.x_num_ticks_sm_md_lg[0])
+        xAxis.ticks(8)
         } else if (parseInt(graphic.style("width")) <= 768){
-        xAxis.ticks(config2.optional.x_num_ticks_sm_md_lg[1])
+        xAxis.ticks(8)
         } else {
-        xAxis.ticks(config2.optional.x_num_ticks_sm_md_lg[2])
+        xAxis.ticks(8)
         }
 
 
@@ -118,7 +120,7 @@ function drawGraphic(width) {
     } else {
         var xDomain = config2.essential.xAxisScale;
     }
-
+    console.log(xDomain);
     x.domain(xDomain);
 
     d3.select("#buttonid").on("click",function(){saveSvgAsPng(document.getElementById("chart"), "diagram.png")});
@@ -139,23 +141,23 @@ function drawGraphic(width) {
                 .attr("height", height)
                 .attr("fill","transparent")
 
-                map.append("text")
-    .attr('x', 450)
-    .attr('y', -10)
-    .attr('font-size', 18)
-    .attr('text-anchor', 'middle')
-    .attr('class', 'title')
-    .attr('fill', '#8c96c6')
-    .attr('font-weight', 'bold')
-    .text("Free or Reduced Lunch");
-map.append('text')
-    .attr('x', 450)
-    .attr('y', 8)
-    .attr('font-size', 15)  
-    .attr('text-anchor', 'middle') 
-    .attr('fill', '#8c96c6') 
-    .attr('class', 'title')
-    .text("Percent of students who qualify for free or reduced lunch in the US");
+            map.append("text")
+                .attr('x', 450)
+                .attr('y', -10)
+                .attr('font-size', 18)
+                .attr('text-anchor', 'middle')
+                .attr('class', 'title')
+                .attr('fill', '#8c96c6')
+                .attr('font-weight', 'bold')
+                .text("Free or Reduced Lunch");
+            map.append('text')
+                .attr('x', 450)
+                .attr('y', 8)
+                .attr('font-size', 15)  
+                .attr('text-anchor', 'middle') 
+                .attr('fill', '#8c96c6') 
+                .attr('class', 'title')
+                .text("Percent of students who qualify for free or reduced lunch in the US");
 
 
 
@@ -166,7 +168,7 @@ map.append('text')
                 .attr("width", chart_width + margin.left + margin.right)
                 .attr("height", height + margin.top + margin.bottom)
                 .append("g")
-                .attr("transform", "translate(" + margin.left * 5 + "," + margin.top + ")");
+                .attr("transform", "translate(" + margin.left * 5  + "," + margin.top + ")");
 
             svg.append("rect")
                 .attr("class","svgRect")
@@ -398,7 +400,7 @@ d3.select(".x path.domain").style("opacity",0)
 
 
 d3.select('#source')
-.text('Source: ' + config2.essential.sourceText);
+.text('Source: NCES, Kids Count Data Center, AZ Dept. of Education, MA Dept. of Education');
 
         d3.selectAll("text").attr("font-family","'Open Sans', sans-serif");
 

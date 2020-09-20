@@ -124,3 +124,11 @@ console.log(colorScale.invertExtent("#810f7c"));
 
   });
   });
+
+  d3.select('#source')
+.text('Source: NCES, Kids Count Data Center, AZ Dept. of Education, MA Dept. of Education');
+
+        d3.selectAll("text").attr("font-family","'Open Sans', sans-serif");
+
+    makeMap(geog2,data2,config2);
+
