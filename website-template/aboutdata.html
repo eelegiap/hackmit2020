@@ -45,34 +45,35 @@
             <div class="page-header">About the Data</div>
             <h2>American Community Survey </h2>
             <br>
-            <p>The data used in our analyses (apart from the data on free and reduced lunch, below) comes from the
+            <p>We use data from the
               American Commuity Survey, a demographics survey regularly conducted by the Census Bureau. The ACS
-              collected 3,214,539 data points collected in 2018. We isolated 97 relevant variables for our analysis from
+              collected 3.2 million data points in 2018. We isolated 97 relevant variables for our analysis from
               the dataset using <a href="https://usa.ipums.org/usa/index.shtml" target="_blank">IPUMS USA</a>, which
               allows researchers to create custom datasets from census data. </p>
             <p>Limitations on ACS data are outlined in detail in <a href="https://usa.ipums.org/usa/doc.shtml"
                 target="_blank"> the IPUMS documentation</a>. The main limitation is that the records identify no
-              geographic areas with fewer than 100,000 inhabitants. As such, we were limited on data from small and
-              sparse areas, for example, some rural areas. Furthermore, ACS data samples are weighted, meaning that
+              geographic areas with fewer than 100,000 inhabitants. As such, we were limited on data from small and sparse areas, for example, some rural areas. Furthermore, ACS data samples are weighted, meaning that
               persons with some characteristics are over-represented in the samples, while others are underrepresented.
               To adjust for weight, we applied sample weights provided in the microdata. </p>
-            <p>For most of the relevant analyses conducted to create our visualizations, we filtered out data for any
-              persons not identified as being a K-12 student. ACS data is dense: only 2.9% of entries did not include
-              information relevant for filtering for K-12 students. As such, we are confident that filtering the dataset
+            <p>For most of the relevant analyses conducted to create our visualizations, we filtered out data for any persons not identified as being a K-12 student. The ACS data is dense: only 2.9% of entries did not include information relevant for filtering for K-12 students. As such, we are confident that filtering the dataset
               in this way preserves the information from the original data. </p>
 
-            <h2>Free and Reduced Lunch Data </h2>
+            <h2> National Center for Education Statistics (NCES) </h2>
             <br>
-            <!-- Insert blurb about lunch data here-->
-
+              <p>The data used in our Food Insecurity analysis was from the <a href = "https://nces.ed.gov/ccd/elsi/tableGenerator.aspx">National Center for Education Statistics</a>, the primary federal entity for collecting and analyzing data related to education in the U.S. and other nations. Some counties and were missing from the dataset and were left out of the county-level analysis. Additional state-level data was obtained from external sources to complete the state-level analysis.
+              </p>
+              
             <br><br>
             <hr>
             <div class="page-header">About the Authors</div>
-            <p>The website team is comprised of Paige Lee, Alyssa Chen, Denisse Cordova Carrizales, and Kathleen
-              Esfahany. Paige, Alyssa, and Denisse are all juniors at Harvard, and Kathleen is a junior at MIT. They all
-              have varying academic and personal interests adjacent to computer science. For example, Kathleen is majoring
-            in </p>
-
+            <p>The website was originally built by Alyssa Chen<sup>1</sup>, Denisse Cordova Carrizales<sup>1</sup>, Kathleen
+              Esfahany<sup>2</sup>, and Paige Lee<sup>1</sup> as part of a submission to HackMIT 2020. All of the authors
+              have varying academic and personal interests adjacent to computer science.
+            </p>
+              
+              
+            <p> <small>1 Harvard University</small></p>
+            <p> <small>2 Massachusetts Institute of Technology</small></p>
           </div>
         </div>
       </div>
