@@ -1,5 +1,5 @@
 
-var w = 1400;
+var w = 1100;
 var h = 800;
 
 var svg = d3.select('#chart-area').append('svg')
