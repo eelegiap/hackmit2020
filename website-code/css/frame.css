@@ -154,12 +154,13 @@ hr {
   white-space: nowrap;
 }
 
+
 .menu-items a:not(:last-child) {
   margin-right: 25px;
 }
 
 .menu-items a:hover {
-  color: black; 
+  color: #B9BCDB; 
   opacity: 1;
 }
 
