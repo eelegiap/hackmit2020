@@ -10,8 +10,8 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: white;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  background-color: #F3E6DA;
+  font-family: 'Overpass Mono', Helvetica, Arial, sans-serif;
   left: 0;
   right: 0;
   width: auto;
@@ -41,19 +41,21 @@ video {
 }
 
 h2 {
+  color: #1d3557;
   font-size: 24px;
   margin: 10px 0 0 0;
   padding: 0;
   font-weight: bold;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Overpass Mono', 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 h3 {
+  color: #1d3557;
   font-size: 18px;
   margin: 10px 0 0 0;
   padding: 0;
   font-weight: bold;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Overpass Mono', 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 ul,
@@ -77,7 +79,8 @@ hr {
   z-index: 2;
   position: relative;
   width: 100%;
-  background-color: #212121;
+  height: 150px;
+  /*background-color: #eddcd2;*/
   min-width: 300px;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -94,7 +97,7 @@ hr {
 }
 
 .menu-table {
-  padding: 10px 10px;
+  padding: 50px 10px;
   width: 100%;
   margin: 0;
 }
@@ -110,8 +113,8 @@ hr {
 }
 
 .logo a {
-  color: rgba(255, 255, 255, 0.8);
-  font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+  color: black;
+  font-family: 'Overpass Mono', Helvetica, Arial, sans-serif;
   font-size: 30px;
   text-decoration: none;
   font-weight: 700;
@@ -132,7 +135,7 @@ hr {
 }
 
 .menu-items a {
-  color: rgba(255, 255, 255, 0.8);
+  color: #1d3557;
   text-decoration: none;
   font-weight: 400;
   font-size: 18px;
@@ -140,7 +143,7 @@ hr {
   transition: opacity 0.1s ease-in-out;
   -moz-transition: opacity 0.1s ease-in-out;
   -webkit-transition: opacity 0.1s ease-in-out;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Overpass Mono', Helvetica, Arial, sans-serif;
   white-space: nowrap;
 }
 
@@ -149,7 +152,7 @@ hr {
 }
 
 .menu-items a:hover {
-  color: rgb(255, 255, 255);
+  color: black; 
   opacity: 1;
 }
 
@@ -164,11 +167,13 @@ hr {
   position: relative;
   margin: 0 auto;
   font-size: 16px;
-  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-family:  'Quattrocento Sans','Scope One';
+  /*'Lora','Source Sans Pro', Helvetica, Arial, sans-serif;*/
   font-weight: 300;
   line-height: 1.5;
   max-width: 1200px;
   overflow-x: auto;
+  color:black;
 }
 
 .content p a,
@@ -768,7 +773,7 @@ ol.nested>li:before {
   .menu-items a {
     width: 100%;
     padding: 10px 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid #1d3557;
   }
 
   .menu-button {
