@@ -78,10 +78,21 @@
      font-weight: 700;
      color:#323132;
   }
-  .page-header{
+    .page-header{
     font-size: 36px;
     font-weight: 700;
   }
+  .button {
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  float: right;
+}
   </style>
 </head>
 
@@ -92,17 +103,14 @@
       <div class="content-table flex-column">
         <div class="flex-row">
           <div class="flex-item flex-column">
-            <div class="page-header"><span>Title of the Page</span>               
-              <span>
-              <button class='custom-button-flat'>
-                <img src="img/next.png">
-                <span>See county map</span>
-              </button>
-            </span></div>
+            <div><span class="page-header">Food Insecurity</span>  
+            </div>
+            
             <p class="text add-top-margin">
               Paragraph about food insecurity.Paragraph about food insecurity.Paragraph about food insecurity.Paragraph about food insecurity.Paragraph about food insecurity.Paragraph about food insecurity.Paragraph about food insecurity.Paragraph about food insecurity.Paragraph about food insecurity.
-            </p>
-      
+            </p><br>
+            <a href="food-insecurity-county.html"><button class="custom-button-flat pulse-primary""><span>View by county</span></button></a>
+
             <div id="num-region"></div>
             <div id="graphic">
               <!-- <img src="fallback.png" alt="[Chart]" /> -->
