@@ -44,7 +44,7 @@
             "aspectRatio_md" : [1,1],
             "aspectRatio_lg" : [16,10],
             "number_breaks" : 8,
-            "breaks_choice" : [0, 1500, 3000, 4500, 6000, 7500, 9000],
+            "breaks_choice" : [0, 200, 500, 1000, 2000, 3000, 4500, 6000, 7500, 9000],
             "mobileBreakpoint" : 550,
 
             "x_num_ticks_sm_md_lg" : [6,8,5],
