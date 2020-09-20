@@ -696,7 +696,7 @@ if (Modernizr.svg) {
     queue()
         .defer(d3.json, "data/usa-states1.json")
         .defer(d3.json, "data/config.json")
-        .defer(d3.csv, "data/data1.csv")
+        .defer(d3.csv, "data/frl_by_state.csv")
         .await(ready);
 
     function ready(error, geog, config, data) {
