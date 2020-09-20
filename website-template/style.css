@@ -16,11 +16,8 @@
   fill: none;
 }
 
-.page-header{
-    font-size: 36px;
-    font-weight: 700;
-  }
-  .button {
+
+.button {
   text-decoration: none;
   background-color: #EEEEEE;
   color: #333333;
