@@ -9,14 +9,16 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
 
-  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Overpass+Mono:wght@300;400;700&family=Quattrocento+Sans&family=Scope+One&family=Trocchi&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Overpass+Mono:wght@300;400;700&family=Quattrocento+Sans&family=Scope+One&family=Trocchi&display=swap"
+    rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/menu.js"></script>
-  
+
 
   <style>
     .menu-aboutdata {
-      color: #8650a1  !important;
+      color: #8650a1 !important;
       text-decoration: underline !important;
       opacity: 1 !important;
       font-weight: 700 !important;
@@ -40,25 +42,41 @@
       <div class="content-table flex-column">
         <div class="flex-row">
           <div class="flex-item flex-column">
-        <!-------------------------------------------------------------------------------------------->
-        <!--Start Body-->
+            <!-------------------------------------------------------------------------------------------->
+            <!--Start Body-->
             <div class="page-header">About the Data</div>
-              <h2>American Community Survey </h2>
-              <br>
-              <p>The data used in our analyses (apart from the data on free and reduced lunch, below) comes from the American Commuity Survey, a demographics survey regularly conducted by the Census Bureau. The ACS collected 3,214,539 data points collected in 2018. We isolated 97 relevant variables for our analysis from the dataset using <a href = "https://usa.ipums.org/usa/index.shtml" target = "_blank">IPUMS USA</a>, which allows researchers to create custom datasets from census data. </p>
-              <p>Limitations on ACS data are outlined in detail in <a href = "https://usa.ipums.org/usa/doc.shtml" target = "_blank"> the IPUMS documentation</a>. The main limitation is that the records identify no geographic areas with fewer than 100,000 inhabitants. As such, we were limited on data from small and sparse areas, for example, some rural areas. Furthermore, ACS data samples are weighted, meaning that persons with some characteristics are over-represented in the samples, while others are underrepresented. To adjust for weight, we applied sample weights provided in the microdata. </p>
-              <p>For most of the relevant analyses conducted to create our visualizations, we filtered out data for any persons not identified as being a K-12 student. ACS data is dense: only 2.9% of entries did not include information relevant for filtering for K-12 students. As such, we are confident that filtering the dataset in this way preserves the information from the original data. </p>
+            <h2>American Community Survey </h2>
+            <br>
+            <p>The data used in our analyses (apart from the data on free and reduced lunch, below) comes from the
+              American Commuity Survey, a demographics survey regularly conducted by the Census Bureau. The ACS
+              collected 3,214,539 data points collected in 2018. We isolated 97 relevant variables for our analysis from
+              the dataset using <a href="https://usa.ipums.org/usa/index.shtml" target="_blank">IPUMS USA</a>, which
+              allows researchers to create custom datasets from census data. </p>
+            <p>Limitations on ACS data are outlined in detail in <a href="https://usa.ipums.org/usa/doc.shtml"
+                target="_blank"> the IPUMS documentation</a>. The main limitation is that the records identify no
+              geographic areas with fewer than 100,000 inhabitants. As such, we were limited on data from small and
+              sparse areas, for example, some rural areas. Furthermore, ACS data samples are weighted, meaning that
+              persons with some characteristics are over-represented in the samples, while others are underrepresented.
+              To adjust for weight, we applied sample weights provided in the microdata. </p>
+            <p>For most of the relevant analyses conducted to create our visualizations, we filtered out data for any
+              persons not identified as being a K-12 student. ACS data is dense: only 2.9% of entries did not include
+              information relevant for filtering for K-12 students. As such, we are confident that filtering the dataset
+              in this way preserves the information from the original data. </p>
 
-              <h2>Free and Reduced Lunch Data </h2>
-              <br>
-              <!-- Insert blurb about lunch data here-->
+            <h2>Free and Reduced Lunch Data </h2>
+            <br>
+            <!-- Insert blurb about lunch data here-->
 
-              <br><br>
-              <hr>
-              <h3>References</h3>
-              [1] Steven Ruggles, Sarah Flood, Ronald Goeken, Josiah Grover, Erin Meyer, Jose Pacas and Matthew Sobek. IPUMS USA: Version 10.0 [dataset]. Minneapolis, MN: IPUMS, 2020. https://doi.org/10.18128/D010.V10.0
+            <br><br>
+            <hr>
+            <div class="page-header">About the Authors</div>
+            <p>The website team is comprised of Paige Lee, Alyssa Chen, Denisse Cordova Carrizales, and Kathleen Esfahany.</p>
+            <hr>
+            <h3>References</h3>
+            [1] Steven Ruggles, Sarah Flood, Ronald Goeken, Josiah Grover, Erin Meyer, Jose Pacas and Matthew Sobek.
+            IPUMS USA: Version 10.0 [dataset]. Minneapolis, MN: IPUMS, 2020. https://doi.org/10.18128/D010.V10.0
 
-        <!-------------------------------------------------------------------------------------------->
+            <!-------------------------------------------------------------------------------------------->
           </div>
         </div>
       </div>
