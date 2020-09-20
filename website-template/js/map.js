@@ -23,7 +23,7 @@ svg.append('text')
     .attr('class', 'title')
     .text("Proportion of people with bachelors degrees or higher in US counties");
 
-var colors = ["#edf8fb", "#bfd3e6", "#9ebcda", "#8c96c6", "#8856a7", "#810f7c"];
+var colors = ["#bfd3e6", "#9ebcda", "#8c96c6", "#8856a7", "#810f7c", "#710632"];
     
 //colors taken from colorbrewer2.org
 var colorScale = d3.scaleQuantize()
@@ -42,20 +42,20 @@ var legendItem=legend.selectAll('rect')
 
 
                  
-console.log(colorScale.invertExtent("#8856a7"));         
+//console.log(colorScale.invertExtent("#8856a7"));         
 
 var path = d3.geoPath();
 
-d3.json("https://raw.githubusercontent.com/no-stack-dub-sack/testable-projects-fcc/master/src/data/choropleth_map/for_user_education.json").then(function(edudata){
+d3.json("./data/lunch_data.json").then(function(edudata){
 
-console.log(edudata);  
+//console.log(edudata);  
   colorScale.domain(d3.extent(edudata, function(d){return d.bachelorsOrHigher;}));
 var formatLabel=d3.format(".0f"); 
   let colorCat=[];
   for (let i=0; i<colors.length; i++){
       colorCat[i]=(colorScale.invertExtent(colors[i]));
-  }  
-  console.log(colorCat);
+  }
+  console.log("58",colorCat);
   var legendLabel=legend.selectAll('text')
         .data(colorCat)
         .enter()
@@ -83,6 +83,7 @@ d3.json("https://raw.githubusercontent.com/no-stack-dub-sack/testable-projects-f
     .enter()
     .append("path")
     .style("fill", (function(d){
+        console.log(d)
       for (var i=0; i<edudata.length; i++){
         if (d.id==edudata[i].fips){
           return colorScale(edudata[i].bachelorsOrHigher);
