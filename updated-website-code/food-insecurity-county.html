@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Food Insecurity | Education Epidemic</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/custom.js"></script>
+
+  <meta name="description" content="">
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Overpass+Mono:wght@300;400;700&family=Quattrocento+Sans&family=Scope+One&family=Trocchi&display=swap" rel="stylesheet">
+
+  <style>
+
+    .menu-food-insecurity {
+      color: #8650a1  !important;
+      text-decoration: underline !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+      text-decoration: underline;
+    }
+
+    h6 {
+     font-size: 16px;
+     margin: 16px 0 8px 0;
+     font-weight: 700;
+     color:#323132;
+  }
+  .button {
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  float: right;
+}
+.pulse-primary {
+  max-width: 12%;
+  display:inline-block;
+}
+  </style>
+</head>
+
+<body style="max-width: 100%">
+  <div class="menu-container"></div>
+  <div class="content-container">
+    <div class="content">
+      <div class="content-table flex-column">
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <div class="page-header">Food Insecurity</div>
+            <p class="text add-top-margin">
+                Affecting an estimated 11% of American households in 2018, <b>food insecurity</b> is defined as the disruption of food intake resulting from a lack of money and other resources. 
+                School lunch is critical to the health and well-being of students, especially for those affected by food insecurity.
+                In fact, for some children, school meals may be the only meal they have on a given day.
+                When schools transitioned to a remote format in the spring of 2020, many vulerable students were left without school meals. 
+                By some estimates, only 15% of students who qualify for free or reduced-price school meals have been getting them.
+                Some school districts have created a pick-up system for school meals, but the need for a parent to come to the pick-up site is a barrier for families where parents are busy working or have disabilities.
+                As remote education continues, food insecurity is expected to continue to pose a challenge to students in food-insecure households.
+            </p><br>
+            <a href="food-insecurity-state.html"><button class="custom-button-flat pulse-primary"><span>View by state</span></button></a>
+            <div id = "chart-area"></div>
+            <div class="d3-tip"></div>
+            
+          </div>
+        </div>
+        <!-------------------------------------------------------------------------------------------->
+        <div class="flex-row">
+          <div class="flex-item flex-item-stretch flex-column">
+            <h6 id="source"></h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="//d3js.org/topojson.v2.min.js"></script>
+<script src="js/d3.tip.js"></script>
+<script src="js/map.js"></script>
+<div class="content-container">
+    <div class="content">
+      <div class="content-table flex-column">
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            
+
+            <p>*Black indicates missing data.<br></p>
+
+<br>
+<!--            <a href="food-insecurity-county.html"><button class="custom-button-flat pulse-primary"><span>View by county</span></button></a>-->
+
+
+          </div>
+        </div>
+        <!-------------------------------------------------------------------------------------------->
+
+      </div>
+    </div>
+</body>
+
+</html>

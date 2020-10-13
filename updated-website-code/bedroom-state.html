@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Noise Level | Education Epidemic</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Overpass+Mono:wght@300;400;700&family=Quattrocento+Sans&family=Scope+One&family=Trocchi&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/custom.js"></script>
+  
+
+  <meta name="description" content="">
+  <link rel="stylesheet" href="style.css">
+
+
+  <link rel="stylesheet" href="lib/globalStyle.css" />
+
+  <style>
+    .menu-bedroom {
+      color: #8650a1  !important;
+      text-decoration: underline !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+      text-decoration: underline;
+    }
+#map {
+  height: 750;
+}
+  #chart {
+    height: 750;
+    overflow: scroll;
+}
+  #key {
+    display: none;
+  }
+	#key path {
+		  display: none;
+
+	}
+
+  #num-region {
+    height: 25px;
+    margin-left: 15px;
+    font-size: 18px;
+  }
+
+	#key line {
+	  stroke: #000;
+	  shape-rendering: crispEdges;
+	}
+
+	#key g {
+		font-size:11px;
+		fill:#666;
+	}
+
+	#key rect {
+		stroke:#666;
+		stroke-width:0.5px;
+		z-index:+1;
+	}
+
+	.bar_selected{
+		stroke: teal;
+	}
+
+  h6 {
+     font-size: 16px;
+     margin: 16px 0 8px 0;
+     font-weight: 700;
+     color:#323132;
+  }
+  .button {
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  float: right;
+}
+  </style>
+</head>
+
+<body style="max-width: 100%">
+  <div class="menu-container"></div>
+  <div class="content-container">
+    <div class="content">
+      <div class="content-table flex-column">
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <div><span class="page-header">Noise and Environment</span>  
+            </div>
+            
+            <p>Difficult working environments (composed of factors including excess noise, a lack of privacy, and poor lighting) pose yet another challenge to remote learning. Physical space constraints <a href = "https://www.edsurge.com/news/2020-07-22-report-one-of-the-biggest-obstacles-to-remote-learning-finding-a-quiet-place-to-work" target = "_blank">can make it difficult to work and focus</a>. The effects of a noisy environment were felt by students this past spring and underestimated by parents: a <a href = "https://static1.squarespace.com/static/5716af60356fb068327b23af/t/5f1765c386d7e37c7f58d891/1595368908363/BrightBytes+2020+Remote+Learning+Survey+Results.pdf" target = "_blank">survey</a> by BrightBytes found that students report being less likely than teachers to have a consistently quiet place to work, and that parents are much more likely to say that their children have a quiet environment than the students themselves.</p><br>
+
+<br>
+<!--            <a href="food-insecurity-county.html"><button class="custom-button-flat pulse-primary"><span>View by county</span></button></a>-->
+
+            <div id="num-region"></div>
+            <div id="graphic">
+              <!-- <img src="fallback.png" alt="[Chart]" /> -->
+            </div>
+            <h6 id="source"></h6>
+            <div id="keypoints">
+                <p></p>
+            </div>
+          </div>
+        </div>
+        <!-------------------------------------------------------------------------------------------->
+        <div class="flex-row">
+          <div class="flex-item flex-item-stretch flex-column">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="//d3js.org/topojson.v2.min.js"></script>
+<script src="js/d3.tip.js"></script>
+<script src="https://cdn.ons.gov.uk/vendor/d3/4.2.7/d3.min.js" type="text/javascript"></script>
+<script src="lib/modernizr.svg.min.js" type="text/javascript"></script>
+<script src="lib/pym.js" type="text/javascript"></script>
+<!--    <script src="../lib/footer.js"></script>-->
+<script src="lib/saveSvgAsPng.js" type="text/javascript"></script>
+<script src="lib/topojson.js"></script>
+<script src="lib/queue.js" charset="utf-8"></script>
+<script src="lib/ss.js"></script>
+<script src="js/linkedmap-bedroom.js"></script>
+
+
+  <div class="content-container">
+    <div class="content">
+      <div class="content-table flex-column">
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            
+            <h3 style = "color: #8077C4;font-size: 18px;margin: 10px 0 0 0;padding: 0;font-weight: bold;font-family: 'Overpass Mono', 'Open Sans', Helvetica, Arial, sans-serif;">More about our analysis </h3>
+
+            <p>Data on factors such as noise and crowdedness of a household does not exist in a comprehensive manner. As a proxy estimate for noise and crowdedness, we created an index involving number of bedrooms and number of people in one household. In general, if there are n people living in a household, we assume that there is not enough room for each person to have a quiet and private workspace if there are less than n-1 bedrooms. Using this proxy, the map above presents the percentage of K-12 students living in households that don’t have enough rooms to be considered a quiet and productive working environment. <br></p>
+
+<br>
+<!--            <a href="food-insecurity-county.html"><button class="custom-button-flat pulse-primary"><span>View by county</span></button></a>-->
+
+
+          </div>
+        </div>
+        <!-------------------------------------------------------------------------------------------->
+
+      </div>
+    </div>
+
+
+</body>
+
+</html>

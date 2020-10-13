@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>About | Education Epidemic</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Overpass+Mono:wght@300;400;700&family=Quattrocento+Sans&family=Scope+One&family=Trocchi&display=swap"
+    rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/menu.js"></script>
+
+
+  <style>
+    .menu-aboutdata {
+      color: #8650a1 !important;
+      text-decoration: underline !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+      text-decoration: underline;
+    }
+
+    /* .col-md-2 {
+      text-align: center;
+    }
+    .row {
+      text-align: center;
+    } */
+  </style>
+</head>
+
+<body>
+  <div class="menu-container"></div>
+  <div class="content-container">
+    <div class="content">
+      <div class="content-table flex-column">
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <div class="page-header">About the Data</div>
+            <h2>American Community Survey </h2>
+            <br>
+            <p>We use data from the
+              American Commuity Survey, a demographics survey regularly conducted by the Census Bureau. The ACS
+              collected 3.2 million data points in 2018. We isolated 97 relevant variables for our analysis from
+              the dataset using <a href="https://usa.ipums.org/usa/index.shtml" target="_blank">IPUMS USA</a>, which
+              allows researchers to create custom datasets from census data. </p>
+            <p>Limitations on ACS data are outlined in detail in <a href="https://usa.ipums.org/usa/doc.shtml"
+                target="_blank"> the IPUMS documentation</a>. The main limitation is that the records identify no
+              geographic areas with fewer than 100,000 inhabitants. As such, we were limited on data from small and sparse areas, for example, some rural areas. Furthermore, ACS data samples are weighted, meaning that
+              persons with some characteristics are over-represented in the samples, while others are underrepresented.
+              To adjust for weight, we applied sample weights provided in the microdata. </p>
+            <p>For most of the relevant analyses conducted to create our visualizations, we filtered out data for any persons not identified as being a K-12 student. The ACS data is dense: only 2.9% of entries did not include information relevant for filtering for K-12 students. As such, we are confident that filtering the dataset
+              in this way preserves the information from the original data. </p>
+
+            <h2> National Center for Education Statistics (NCES) </h2>
+            <br>
+              <p>The data used in our Food Insecurity analysis was from the <a href = "https://nces.ed.gov/ccd/elsi/tableGenerator.aspx">National Center for Education Statistics</a>, the primary federal entity for collecting and analyzing data related to education in the U.S. and other nations. Some counties and were missing from the dataset and were left out of the county-level analysis. Additional state-level data was obtained from external sources to complete the state-level analysis.
+              </p>
+              
+            <br><br>
+            <hr>
+            <div class="page-header">About the Authors</div>
+            <p>The website was originally built by Alyssa Chen<sup>1</sup>, Denisse Cordova Carrizales<sup>1</sup>, Kathleen
+              Esfahany<sup>2</sup>, and Paige Lee<sup>1</sup> as part of a submission to HackMIT 2020. All of the authors
+              have varying academic and personal interests adjacent to computer science.
+            </p>
+              
+              
+            <p> <small>1 Harvard University</small></p>
+            <p> <small>2 Massachusetts Institute of Technology</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+
+</body>
+
+</html>
